@@ -36,7 +36,7 @@ const CardItem = ({
         route.push(`/shop?categoryId=${id}`)
     }
     return (
-        <Card>
+        <Card className='hover:scale-[1.05] hover:transition-all hover:duration-300 duration-300 cursor-pointer'>
             <CardHeader>
                 <CardTitle>{title}</CardTitle>
                 {price && <CardDescription>Price $ {price}</CardDescription>}
@@ -47,7 +47,7 @@ const CardItem = ({
                         src={image}
                         alt='product'
                         fill
-                        className='object-contain hover:scale-[1.15] hover:transition-all hover:duration-500 duration-500 cursor-pointer'
+                        className='object-contain'
                     />
                 </Link>
             </CardContent>

@@ -30,6 +30,10 @@ const nextConfig = {
                 protocol:"https",
                 hostname:"placeimg.com"
             },
+            {
+                protocol:"https",
+                hostname:"media.ultra-shop.com"
+            },
         ]
     }
 }

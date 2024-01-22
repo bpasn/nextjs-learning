@@ -1,22 +1,15 @@
 'use client';
-import { EachElement } from "@/EachElement";
-import { CardItemProps } from "@/components/CardItemComponent";
-import { Button } from "@/components/ui/button";
 import DataTable from "@/components/ui/data-table";
-import { formatted } from "@/lib/utils";
 import { data1 } from "@/mockData";
-import { Trash2 } from "lucide-react";
-import Image from "next/image";
-import { columnCart } from "./columnCart";
-interface CartClientProps {
+import useColumnCart from "./columnCart";
+import useCartStore from "@/stores/cart-store";
 
-}
-
-const CartClient = (props: CartClientProps) => {
-    const data = data1[0];
+const CartClient = () => {
+    const cart = useCartStore(state => state.cart);
+    const [columnCart] = useColumnCart();
     return (
         <DataTable
-            data={data1}
+            data={cart}
             columns={columnCart}
         />
     )

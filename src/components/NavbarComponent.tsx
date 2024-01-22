@@ -1,11 +1,13 @@
 'use client';
 import { EachElement } from '@/EachElement';
 import { cn } from '@/lib/utils';
+import useCartStore from '@/stores/cart-store';
 import { ShoppingBag } from 'lucide-react';
 import Link from 'next/link';
 import React from 'react';
 
 const NavbarComponent = () => {
+  const cart = useCartStore(state => state.cart);
   return (
     <nav className={
       cn(
@@ -47,7 +49,7 @@ const NavbarComponent = () => {
             <ShoppingBag />
           </Link>
           <div className="absolute top-[-10px] left-[15px] text-white items-center flex justify-center z-10 bg-red-500 h-5 w-5 text-center rounded-xl">
-            <span>0</span>
+            <span>{cart.length}</span>
           </div>
         </div>
       </div>

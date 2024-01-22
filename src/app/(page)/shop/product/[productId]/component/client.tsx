@@ -12,25 +12,23 @@ import {
     TabsContent
 } from '@/components/ui/tabs';
 import { formatted } from '@/lib/utils';
+import useCartStore from '@/stores/cart-store';
 
-const ProductDetailClient = ({
-    id,
-    title,
-    price,
-    description,
-    images,
-    category: {
-        id: categoryId,
-        name: categoryName
-    }
-}: ProductModel) => {
+const ProductDetailClient = (product: ProductModel) => {
+    const {
+        id,
+        title,
+        price,
+        description,
+        images,
+        category: {
+            id: categoryId,
+            name: categoryName
+        }
+    } = product;
+    const cartStore = useCartStore();
     const [showImage, setShowImage] = useState(images[0]);
-    const [count, setCount] = useState(1);
-    const handleIncrease = () => setCount(count + 1);
-    const handleDecrease = () => setCount(c => {
-        if (c <= 1) return 1
-        return count - 1
-    });
+    console.log(cartStore.cart)
     return (
         <div>
             <div className='flex flex-col md:grid  md:grid-cols-2'>
@@ -71,15 +69,15 @@ const ProductDetailClient = ({
                     <h1 className='text-lg font-medium text-primary'>{formatted(price!)}</h1>
                     <div className="footer mt-10 md:mt-auto  flex space-x-3">
                         <div className="flex items-center space-x-2">
-                            <Button size={"icon"} variant={"outline"} disabled={count <= 1} onClick={handleDecrease}>
+                            <Button size={"icon"} variant={"outline"}  onClick={() => cartStore.decrementCart(id)}>
                                 <Minus size={18} />
                             </Button>
-                            <div className="border rounded-md w-10 h-full items-center flex justify-center text-center text-base">{count}</div>
-                            <Button size={"icon"} variant={"outline"} onClick={handleIncrease} >
+                            <div className="border rounded-md w-10 h-full items-center flex justify-center text-center text-base">{cartStore.cart.find(item => item.id === id)?.quantity ?? 0}</div>
+                            <Button size={"icon"} variant={"outline"} onClick={() => cartStore.incrementCart(id)} >
                                 <Plus size={18} />
                             </Button>
                         </div>
-                        <Button>Add to cart</Button>
+                        <Button onClick={() => cartStore.addToCart({ ...product, quantity: 1 })}>Add to cart</Button>
                     </div>
                 </section>
             </div>
