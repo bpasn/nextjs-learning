@@ -1,6 +1,9 @@
 import React from 'react'
 import ShopClient from '../component/client';
 import Link from 'next/link';
+import { Select, SelectContent, SelectGroup, SelectItem, SelectLabel, SelectTrigger, SelectValue } from '@/components/ui/select';
+import { EachElement } from '@/EachElement';
+import { Pagination, PaginationContent, PaginationEllipsis, PaginationItem, PaginationLink, PaginationNext, PaginationPrevious } from '@/components/ui/pagination';
 
 const fetchData = async (categoryId?: string, productName?: string): Promise<ProductModel[]> => {
   'use server';
@@ -27,9 +30,47 @@ const ShopPage = async ({
     </div>
   )
   return (
-    <div className="grid grid-cols-1 md:grid-cols-4 gap-5 mb-10 mt-10">
+    <>
+      <div className="flex flex-row mt-10">
+        <div className="block-result text-start">
+          <h1 className="text-2xl font-medium">Result for "{searchParams.productName ?? data[0].category.name}"</h1>
+          <span className="text-lg">{data.length} results found</span>
+        </div>
+        <div className="ml-auto">
+          <div className="flex flex-row space-x-4">
+            <p className="text-xl text-foreground/20" >
+              sort by :
+            </p>
+            <Select >
+              <SelectTrigger className="w-[180px] focus-visible:outline-none">
+                <SelectValue placeholder="Select a fruit" />
+              </SelectTrigger>
+              <SelectContent className="focus-visible:outline-none">
+                <SelectGroup>
+                  <SelectItem value="apple">Apple</SelectItem>
+                  <SelectItem value="banana">Banana</SelectItem>
+                  <SelectItem value="blueberry">Blueberry</SelectItem>
+                  <SelectItem value="grapes">Grapes</SelectItem>
+                  <SelectItem value="pineapple">Pineapple</SelectItem>
+                </SelectGroup>
+              </SelectContent>
+            </Select>
+          </div>
+        </div>
+      </div>
       <ShopClient products={data} />
-    </div>
+      <Pagination>
+        <PaginationContent>
+          <PaginationItem>
+            <PaginationPrevious href="#" />
+          </PaginationItem>
+          
+          <PaginationItem>
+            <PaginationNext href="#" />
+          </PaginationItem>
+        </PaginationContent>
+      </Pagination>
+    </>
   )
 }
 

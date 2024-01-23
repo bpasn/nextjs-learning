@@ -10,59 +10,56 @@ import {
 }
     from './ui/card';
 import Image from 'next/image';
-import { cn } from '@/lib/utils';
+import { cn, formatted } from '@/lib/utils';
 import Link from 'next/link';
 import { useRouter } from 'next/navigation';
 export interface CardItemProps {
     id: string;
-    category:string;
-    title: string;
+    category: string;
+    title?: string;
     price?: string;
     image: string;
-    description?:string;
-    href?:string;
+    description?: string;
+    href?: string;
+    footer?: React.ReactNode;
 };
 
-const CardItem = ({
-    id,
-    category,
+const CardItemComponent = ({
     title,
+    category,
     image,
     price,
-    href
+    href,
+    footer
 }: CardItemProps) => {
-    const route = useRouter();
-    const handleLink = (id:string) => {
-        route.push(`/shop?categoryId=${id}`)
-    }
     return (
         <Card className='hover:scale-[1.05] hover:transition-all hover:duration-300 duration-300 cursor-pointer'>
             <CardHeader>
-                <CardTitle>{title}</CardTitle>
-                {price && <CardDescription>Price $ {price}</CardDescription>}
+                <CardTitle className='text-lg text-foreground/50'>{category}</CardTitle>
             </CardHeader>
-            <CardContent className='relative h-[350px]'>
-                <Link href={href!}>
-                    <Image
-                        src={image}
-                        alt='product'
-                        fill
-                        className='object-contain'
-                    />
-                </Link>
+            <CardContent >
+                <div className="relative h-[350px]">
+                    <Link href={href!}>
+                        <Image
+                            src={image.search(/\.(jpg|jpeg|png)$/i) > -1 ? image : ""}
+                            alt='product'
+                            fill
+                            className='object-contain'
+                            onLoad={() => (<>Loading...</>)}
+                        />
+                    </Link>
+                </div>
+                {title && <p className="text-xl">{title}</p>}
+                {price && <span className="text-lg text-red-500">{formatted(String(price))}</span>}
             </CardContent>
-            <CardFooter className='flex justify-between px-5 py-3 z-10'>
-                <h1 className="font-bold text-xl text-amber-300">Buy Now</h1>
-                <button
-                    className={
-                        cn(
-                            "bg-gray-300 p-2 text-white hover:scale-[1.15] hover:transition-all hover:duration-200 duration-200 z-10"
-                        )
-                    }
-                >See more</button>
-            </CardFooter>
+            {footer && (
+                <CardFooter className='flex justify-between px-5 py-3 z-10'>
+                    {footer}
+                </CardFooter>
+            )}
+
         </Card>
     )
 }
 
-export default CardItem
+export default CardItemComponent

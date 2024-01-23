@@ -8,7 +8,7 @@ import {
     CardTitle
 } from '@/components/ui/card';
 import { cn } from '@/lib/utils';
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 
 interface LoadingProviderProps {
     count: number;
@@ -17,6 +17,12 @@ interface LoadingProviderProps {
 const LoadingProvider = ({
     count
 }: LoadingProviderProps) => {
+    const [isMounted, setIsMounted] = useState(false);
+    useEffect(() => {
+        setIsMounted(true);
+    }, []);
+
+    if (!isMounted) return null;
     return (
         <div className='grid grid-cols-1 md:grid-cols-4 gap-5 mb-10 mt-10'>
             <EachElement

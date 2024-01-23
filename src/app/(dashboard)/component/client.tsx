@@ -15,7 +15,6 @@ const DashboardClient = ({ data }: DashboardClientProps) => {
           key={index}
           id={item.id}
           category={item.name}
-          title={item.name}
           image={item.image!}
           href={`/shop?categoryId=${item.id}`}
         />

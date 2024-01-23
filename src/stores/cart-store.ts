@@ -34,7 +34,7 @@ const useCartStore = create<CartStore>()(
                         console.log("ITEM IS EXISTING")
                         return set(prv => ({
                             ...prv,
-                            cart: prv.cart.map(item => item.id === newItem.id ? { ...newItem, quantity: item.quantity + newItem.quantity } : item)
+                            cart: prv.cart.map(item => item.id === newItem.id ? newItem : item)
                         }));
                     },
                     resetCart: () => set(p => ({ ...p, cart: [] })),
