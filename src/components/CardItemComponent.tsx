@@ -33,18 +33,22 @@ const CardItemComponent = ({
     footer
 }: CardItemProps) => {
     return (
-        <Card className='hover:scale-[1.05] hover:transition-all hover:duration-300 duration-300 cursor-pointer'>
+        <Card className='hover:shadow-xl shadow-md border-none hover:duration-300 duration-300 cursor-pointer'>
             <CardHeader>
                 <CardTitle className='text-lg text-foreground/50'>{category}</CardTitle>
             </CardHeader>
             <CardContent >
-                <div className="relative h-[350px]">
-                    <Link href={href!}>
+                <div className="">
+                    <Link href={href! ?? ''}>
                         <Image
                             src={image.search(/\.(jpg|jpeg|png)$/i) > -1 ? image : ""}
                             alt='product'
-                            fill
+                            width={300}
+                            height={300}
                             className='object-contain'
+                            style={{
+                                width:"100%"
+                            }}
                             onLoad={() => (<>Loading...</>)}
                         />
                     </Link>

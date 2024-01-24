@@ -14,13 +14,13 @@ export default async function RootLayout({
 }: {
   children: React.ReactNode
 }) {
+
   return (
     <html lang="en">
-      <body className='min-h-screen bg-background font-sans antialiased __className_343187'>
+      <body className='min-h-screen font-sans antialiased __className_343187'>
         <NavbarComponent />
-        <main className="container relative flex min-h-screen flex-col bg-background px-0">
+        <main className="relative flex min-h-screen flex-col  px-0">
           <ModalProvider />
-          <BreadcrumbProvider />
           {children}
         </main>
         <footer className="py-6 md:px-8 md:py-0 bg-slate-400 mt-10">

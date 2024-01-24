@@ -72,7 +72,7 @@
   }
 
   body {
-    @apply bg-background text-foreground;
+    @apply bg-[#f8f8f8] text-foreground;
   }
 }
 
@@ -92,4 +92,16 @@
 
 ::-webkit-scrollbar-thumb {
   /* Customize the scrollbar thumb */
+}
+
+.pagination-custom {
+  @apply absolute z-20 bottom-0 
+}
+
+.navigation-next {
+  @apply absolute z-10 top-0 right-0 bottom-0 translate-x-0 translate-y-[50%]
+}
+
+.navigation-prev {
+  @apply absolute z-10 top-0 left-0 bottom-0 translate-x-0 translate-y-[50%]
 }

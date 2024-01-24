@@ -30,7 +30,7 @@ const ShopPage = async ({
     </div>
   )
   return (
-    <>
+    <div className='container'>
       <div className="flex flex-row mt-10">
         <div className="block-result text-start">
           <h1 className="text-2xl font-medium">Result for "{searchParams.productName ?? data[0].category.name}"</h1>
@@ -70,7 +70,7 @@ const ShopPage = async ({
           </PaginationItem>
         </PaginationContent>
       </Pagination>
-    </>
+    </div>
   )
 }
 
