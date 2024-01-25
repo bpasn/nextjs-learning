@@ -7,6 +7,7 @@ import useStoreModal from '@/stores/modal-store';
 import { EachElement } from '@/EachElement';
 import Image from 'next/image';
 import Link from 'next/link';
+import SelectBox from '../SelectBox';
 interface ListItem {
     label: string;
     image: string;
@@ -62,6 +63,12 @@ const StoreModal = () => {
         storeModal.onClose();
         setListItemSearch([]);
     }
+
+    const handleSubmit = (form: React.FormEvent) => {
+        form.preventDefault();
+
+
+    }
     return (
         <ModalComponent
             title='Search'
@@ -70,8 +77,11 @@ const StoreModal = () => {
             size='lg'
         >
             <div className="space-y-3">
-                <form action="/shop?&">
-                    <Input placeholder='Search' className="sticky top-0 z-50  focus-visible:outline-none" name="productName" onChange={(e) => handleSearch(e.target.value)} />
+                <form onSubmit={handleSubmit}>
+                    <div className="flex flex-col md:flex-row space-y-3 md:space-x-3">
+                        <SelectBox />
+                        <Input placeholder='Search' className="sticky top-0 z-50  focus-visible:outline-none" name="q" onChange={(e) => handleSearch(e.target.value)} />
+                    </div>
                 </form>
                 <ul className='overflow-auto  max-h-[300px]'>
                     {listItemSearch.length && !loading ? (
@@ -79,7 +89,7 @@ const StoreModal = () => {
                             render={(item) => {
                                 return (
                                     <li onClick={() => {
-                                        window.location.href = `/shop/?&productName=${item.label}`;
+                                        window.location.href = `/shop/?&q=${item.label}`;
                                         handleCloseModal();
                                     }} className='border border-b-[1px_solid_#e6e6e6] cursor-pointer rounded scale-[.85] hover:scale-[.95] hover:bg-foreground/20 hover:text-white  hover:transition-all duration-300 hover:duration-300 flex flex-row space-x-4'>
                                         <div className="w-20 h-20 relative">

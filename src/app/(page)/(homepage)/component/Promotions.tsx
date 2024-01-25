@@ -11,8 +11,8 @@ const Promotions = (props: Props) => {
   return (
     <div className="">
       <SwiperComponent indicator="text-right" slidesPerView={2}>
-        <div className="grid grid-cols-2">
-          {Array.from({ length: 10 }, (_, i) => i + 1).map((_, i) => {
+        <div className="grid-[_!important] grid-cols-2">
+          {/* {Array.from({ length: 10 }, (_, i) => i + 1).map((_, i) => {
             return (
               <SwiperSlide key={i} className=''>
                 <CardItemComponent
@@ -24,7 +24,36 @@ const Promotions = (props: Props) => {
                 />
               </SwiperSlide>
             )
-          })}
+          })} */}
+          <SwiperSlide className=''>
+            <CardItemComponent
+              id={""}
+              category={"Display"}
+              image={'https://media-cdn.bnn.in.th/188543/Samsung-Smartphone-Galaxy-A23-1-square_medium.jpg'}
+              price="10"
+              title="สมาร์ทโฟน Realme 10T (8+256) Dash Blue (5G)"
+            />
+          </SwiperSlide>
+          <div className="gird grid-rows-2">
+            <SwiperSlide className=''>
+              <CardItemComponent
+                id={""}
+                category={"Display"}
+                image={'https://media-cdn.bnn.in.th/188543/Samsung-Smartphone-Galaxy-A23-1-square_medium.jpg'}
+                price="10"
+                title="สมาร์ทโฟน Realme 10T (8+256) Dash Blue (5G)"
+              />
+            </SwiperSlide>
+            <SwiperSlide className=''>
+              <CardItemComponent
+                id={""}
+                category={"Display"}
+                image={'https://media-cdn.bnn.in.th/188543/Samsung-Smartphone-Galaxy-A23-1-square_medium.jpg'}
+                price="10"
+                title="สมาร์ทโฟน Realme 10T (8+256) Dash Blue (5G)"
+              />
+            </SwiperSlide>
+          </div>
         </div>
       </SwiperComponent>
     </div>

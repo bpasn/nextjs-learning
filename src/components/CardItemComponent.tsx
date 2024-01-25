@@ -47,7 +47,8 @@ const CardItemComponent = ({
                             height={300}
                             className='object-contain'
                             style={{
-                                width:"100%"
+                                width:"100%",
+                                height:"300px"
                             }}
                             onLoad={() => (<>Loading...</>)}
                         />

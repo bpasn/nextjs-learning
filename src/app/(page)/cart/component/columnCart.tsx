@@ -15,7 +15,7 @@ export default function useColumnCart() {
             "header": "PRODUCT",
             cell({ row }) {
                 return (
-                    <Link href={`/shop/product/${row.original.id}/?productName=${row.original.title}`} className="cursor-pointer hover:scale-[1.05] hover:transition-all hover:duration-300 duration-300">
+                    <Link href={`/shop/product/${row.original.id}/?q=${row.original.title}`} className="cursor-pointer hover:scale-[1.05] hover:transition-all hover:duration-300 duration-300">
                         <Image
                             width={150}
                             height={150}

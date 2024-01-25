@@ -116,7 +116,7 @@ const ProductDetailClient = ({
                             <CardItemComponent
                                 key={index}
                                 id={item.id}
-                                href={`/shop/product/${item.id}/?productName=${item.title}`}
+                                href={`/shop/product/${item.id}/?q=${item.title}`}
                                 category={item.category.name}
                                 title={item.title}
                                 image={item.images[0]}

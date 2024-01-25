@@ -9,7 +9,6 @@ import {
   SelectValue
 } from '@/components/ui/select';
 import Image from 'next/image';
-import ShopClient from './component/client';
 
 
 type Props = {}
@@ -74,7 +73,7 @@ const SlugPage = async ({
           </div>
         </div>
       </div>
-      <ShopClient products={data}/>
+      <div>client</div>
     </div>
   )
 }

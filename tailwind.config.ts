@@ -1,4 +1,5 @@
 import type { Config } from "tailwindcss"
+import plugin from "tailwindcss/plugin";
 
 const config = {
   darkMode: ["class"],
@@ -7,7 +8,7 @@ const config = {
     './components/**/*.{ts,tsx}',
     './app/**/*.{ts,tsx}',
     './src/**/*.{ts,tsx}',
-	],
+  ],
   prefix: "",
   theme: {
     container: {
@@ -22,6 +23,11 @@ const config = {
       },
     },
     extend: {
+      content: {
+        "chevron-rb": '"\uE970"',
+        'chevron-l': '\u2039',
+        'chevron-r': '\u203A',
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
@@ -78,7 +84,21 @@ const config = {
       },
     },
   },
-  plugins: [require("tailwindcss-animate")],
+  plugins: [
+    require("tailwindcss-animate"),
+    plugin(({ matchComponents, theme, e }) => {
+      matchComponents({
+        'custom-icon':(v) => ({
+          'font-family':"Icon Font",
+          '&:after' : {
+            content:`"${v}"`
+          },
+        })
+      },{
+        values:theme("iconFont")
+      })
+    })
+  ],
 } satisfies Config
 
 export default config

@@ -1,9 +1,16 @@
 import React, { Suspense } from 'react'
 import LoadingProvider from '@/providers/loading-provider';
+import BannerComponent from '@/components/BannerComponent';
 const Layout = async ({
-    children
+    children,
+    flashSaleDaily,
+    productHistory,
+    bestSeller,
 }: {
-    children: React.ReactNode
+    children: React.ReactNode;
+    flashSaleDaily: React.ReactNode;
+    productHistory: React.ReactNode;
+    bestSeller: React.ReactNode;
 }) => {
     return (
         <>
@@ -15,6 +22,16 @@ const Layout = async ({
                     </div>
                 </div>
             )}>
+                <BannerComponent />
+                <div className="mb-10">
+                    {flashSaleDaily}
+                </div>
+                <div className="mb-10">
+                    {productHistory}
+                </div>
+                <div className="mb-10">
+                    {bestSeller}
+                </div>
                 {children}
             </Suspense>
         </>

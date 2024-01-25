@@ -39,6 +39,9 @@ const SwiperComponent = ({
 
     <div>
       <Swiper
+        autoplay={{
+          delay: 2000
+        }}
         className='pb-[1.7rem_!important]'
         modules={[Navigation, Pagination, Grid]}
         pagination={{
