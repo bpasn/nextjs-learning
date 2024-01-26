@@ -8,6 +8,7 @@ import { EachElement } from '@/EachElement';
 import Image from 'next/image';
 import Link from 'next/link';
 import SelectBox from '../SelectBox';
+import { useRouter } from 'next/navigation';
 interface ListItem {
     label: string;
     image: string;
@@ -64,10 +65,20 @@ const StoreModal = () => {
         setListItemSearch([]);
     }
 
-    const handleSubmit = (form: React.FormEvent) => {
+    const navigate = useRouter();
+    const handleSubmit = (form: React.FormEvent<HTMLFormElement>) => {
         form.preventDefault();
-
-
+        const querySearch = form.currentTarget.q.value;
+        const paramCategory = form.currentTarget.category.value;
+        let url = "/shop";
+        if (paramCategory) {
+            url = url.concat("/" + paramCategory);
+        }
+        if (querySearch) {
+            url = url.concat("?&q=" + querySearch);
+        }
+        navigate.push(url.concat("&p=0&limit=10&ref=search-result"));
+        handleCloseModal();
     }
     return (
         <ModalComponent
@@ -78,8 +89,8 @@ const StoreModal = () => {
         >
             <div className="space-y-3">
                 <form onSubmit={handleSubmit}>
-                    <div className="flex flex-col md:flex-row space-y-3 md:space-x-3">
-                        <SelectBox />
+                    <div className="flex flex-col md:flex-row space-y-3 md:space-y-0 md:space-x-3">
+                        <SelectBox name='category' />
                         <Input placeholder='Search' className="sticky top-0 z-50  focus-visible:outline-none" name="q" onChange={(e) => handleSearch(e.target.value)} />
                     </div>
                 </form>

@@ -22,11 +22,6 @@ const ShopClient = ({
           title={item.title}
           image={item.images[0].search(/\.(jpg|jpeg|png)$/i) ? item.images[0].replace(/\[|"|]/g, "") : ""}
           href={`/shop/product/${item.id}/?q=${item.title}`}
-          // footer={(
-          //   <div className='flex flex-row ml-auto'>
-          //     <Button size={"lg"} className='rounded-md' onClick={() => addToCart({ ...item, quantity: 1 })}>Add To Cart</Button>
-          //   </div>
-          // )}
         />
       )} of={products}
       />

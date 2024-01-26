@@ -27,7 +27,7 @@ const SwiperComponent = ({
   slidesPerView,
   grid,
   slidesPerViewMd = 5,
-  slidesPerViewSm = 2,
+  slidesPerViewSm = 1,
   slidesPerViewlg = 3,
 }: SwiperComponentProps) => {
   const [isMounted, setMounted] = useState(false);
@@ -54,11 +54,11 @@ const SwiperComponent = ({
         }}
         breakpoints={{
           576: {
-            slidesPerView: slidesPerViewSm,
+            slidesPerView: 2,
             spaceBetween: 20
           },
           992: {
-            slidesPerView: slidesPerViewlg,
+            slidesPerView: 2,
             spaceBetween: 20
           },
           1200: {
@@ -67,13 +67,12 @@ const SwiperComponent = ({
           }
         }}
         spaceBetween={20}
-        slidesPerView={slidesPerView}
         onSlideChange={() => console.log('slide change')}
         onSwiper={(swiper) => console.log(swiper)}
       >
         {children}
         <div className={cn(
-          "pagination-custom px-3   space-x-2 -top-10",
+          "pagination-custom px-3space-x-2 -top-10",
           indicator
         )} />
         <div className="navigation-next h-auto">

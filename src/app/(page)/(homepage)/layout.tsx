@@ -13,7 +13,7 @@ const Layout = async ({
     bestSeller: React.ReactNode;
 }) => {
     return (
-        <>
+        <div className=''>
             <Suspense fallback={(
                 <div>
                     <div className='relative w-full h-[500px] shadow-none bg-gray-200 border-r-4 gap-4 items-center p-2 rounded' />
@@ -34,7 +34,7 @@ const Layout = async ({
                 </div>
                 {children}
             </Suspense>
-        </>
+        </div>
     )
 }
 

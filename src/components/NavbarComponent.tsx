@@ -2,20 +2,22 @@
 import { EachElement } from '@/EachElement';
 import { Routes, cn, routes } from '@/lib/utils';
 import useCartStore from '@/stores/cart-store';
-import { Search, ShoppingBag } from 'lucide-react';
+import { PersonStandingIcon, Search, ShoppingBag, UserRound } from 'lucide-react';
 import Link from 'next/link';
 import React from 'react';
 import { Button } from './ui/button';
 import useStoreModal from '@/stores/modal-store';
 import SheetLeftSideMenu from './SheetLeftSideMenu';
-
+import { signOut, useSession } from 'next-auth/react';
+import { DEFAULT_REDIRECT } from '@/routes';
 const NavbarComponent = () => {
   const cart = useCartStore(state => state.cart);
   const storeModal = useStoreModal();
+  const { data: session } = useSession()
   return (
     <nav className={
       cn(
-        "sticky top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60"
+        "sticky top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 text-foreground/60 text-lg"
       )
     }>
       <div className="container flex h-14 max-w-screen-2xl items-center px-5 md:px-0">
@@ -46,12 +48,25 @@ const NavbarComponent = () => {
           </div>
         </div>
         <div className="flex flex-row ml-auto items-center space-x-4">
+          <div className='md:border-r md:px-10'>
+            {session ? "Sign Out" : (
+              <Link href={{
+                pathname: "/auth/login",
+                query: {
+                  callback: DEFAULT_REDIRECT
+                }
+              }} className='flex space-x-2 hover:text-foreground'>
+                <UserRound />
+                <code className='hidden md:block'>Sign In</code>
+              </Link>
+            )}
+          </div>
           <Button variant={"ghost"} className="" onClick={storeModal.onOpen}>
             <Search className="text-start" size={18} />
           </Button>
           {cartBadge()}
-        </div>
 
+        </div>
       </div>
     </nav>
   )
@@ -59,7 +74,7 @@ const NavbarComponent = () => {
   function cartBadge() {
     "use client";
     return (
-      <div className="logo  relative">
+      <div className="logo  relative md:px-5">
         <Link href={"/cart"} className={cn(" transition-colors hover:text-foreground/80 text-foreground/60")}>
           <ShoppingBag />
         </Link>

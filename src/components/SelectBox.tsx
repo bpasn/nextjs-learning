@@ -1,11 +1,15 @@
 import React from 'react'
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from './ui/select'
 
-type Props = {}
+interface SelectBoxProps {
+    name?: string;
+}
 
-const SelectBox = (props: Props) => {
+const SelectBox = ({
+    name
+}: SelectBoxProps) => {
     return (
-        <Select>
+        <Select name={name}>
             <SelectTrigger className="w-full md:w-[180px]">
                 <SelectValue placeholder="Theme" />
             </SelectTrigger>

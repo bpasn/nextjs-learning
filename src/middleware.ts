@@ -1,0 +1,25 @@
+import { auth } from './auth';
+import { DEFAULT_REDIRECT, apiAuthPrefix, authRoutes, publicRoutes } from './routes';
+
+export default auth((req) => {
+    const { nextUrl } = req;
+    const isLoggedIn = !!req.auth;
+
+    const isApiAuthRoute = nextUrl.pathname.startsWith(apiAuthPrefix);
+    const isPublicRoute = publicRoutes.includes(nextUrl.pathname);
+    const isAuthROute = authRoutes.includes(nextUrl.pathname);
+
+
+    if (isApiAuthRoute) return null;
+    if (isAuthROute) {
+        if (isLoggedIn) return Response.redirect(new URL(DEFAULT_REDIRECT, nextUrl));
+        return null;
+    }
+    // if (!isLoggedIn && !isPublicRoute) {
+    //     return Response.redirect(new URL("/auth/login", nextUrl));
+    // }
+});
+
+export const config = {
+    matcher: ["/((?!.+\\.[\\w]+$|_next).*)", '/', '/(api|trpc)(.*)', '/shop/:path*']
+}
