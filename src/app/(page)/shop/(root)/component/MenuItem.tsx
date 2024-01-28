@@ -29,7 +29,7 @@ const MenuItem = ({
         }
     }, [expanded]);
     return (
-        <li>
+        <li >
             {item.categories.length
                 ? (
                     <div className="flex flex-row  py-2" onClick={handleToggle}>

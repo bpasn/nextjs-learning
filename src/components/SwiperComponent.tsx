@@ -72,7 +72,7 @@ const SwiperComponent = ({
       >
         {children}
         <div className={cn(
-          "pagination-custom px-3space-x-2 -top-10",
+          "pagination-custom px-3 space-x-2 top-[96%_!important] ",
           indicator
         )} />
         <div className="navigation-next h-auto">

@@ -20,12 +20,9 @@ const FilterClient = ({
     brands,
     categories
 }: FilterClientProps) => {
-    const [value,setValue] = useState<string[]>([]);
+    const [value,setValue] = useState<string[]>(['categories']);
     return (
-        <Accordion type="multiple" onValueChange={(v) => {
-            console.log(v);
-            setValue(v)
-        }} value={value}  className="w-full">
+        <Accordion type="multiple" onValueChange={setValue} value={value}  className="w-full">
             <AccordionItem value="categories">
                 <AccordionTrigger className='sticky top-0'>CATEGORIES</AccordionTrigger>
                 <AccordionContent  className='max-h-[350px] overflow-auto'>

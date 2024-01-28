@@ -1,8 +1,8 @@
 'use client';
-import React, { useCallback, useEffect, useState } from 'react'
-import ModalComponent from '../DialogComponent'
-import { Input } from '../ui/input'
-import { delay } from '@/lib/utils'
+import React, { useCallback, useEffect, useState } from 'react';
+import ModalComponent from '../DialogComponent';
+import { Input } from '../ui/input';
+import { delay } from '@/lib/utils';
 import useStoreModal from '@/stores/modal-store';
 import { EachElement } from '@/EachElement';
 import Image from 'next/image';
@@ -13,6 +13,7 @@ interface ListItem {
     label: string;
     image: string;
     value: string;
+    category: string;
 }
 const StoreModal = () => {
     const storeModal = useStoreModal();
@@ -30,7 +31,7 @@ const StoreModal = () => {
                 await delay(3 * 1000);
                 if (response.ok) {
                     const data = await response.json() as ProductModel[];
-                    setListItemSearch(data.map((item: ProductModel) => ({ label: item.title, image: item.images[0], value: item.id })));
+                    setListItemSearch(data.map((item: ProductModel) => ({ label: item.title, category: item.category.name, image: item.images[0], value: item.id })));
                 } else {
                     setError(new Error('Failed to fetch data'));
                 }
@@ -63,7 +64,7 @@ const StoreModal = () => {
     const handleCloseModal = () => {
         storeModal.onClose();
         setListItemSearch([]);
-    }
+    };
 
     const navigate = useRouter();
     const handleSubmit = (form: React.FormEvent<HTMLFormElement>) => {
@@ -77,9 +78,9 @@ const StoreModal = () => {
         if (querySearch) {
             url = url.concat("?&q=" + querySearch);
         }
-        navigate.push(url.concat("&p=0&limit=10&ref=search-result"));
+        navigate.push(url.concat("?&p=0&limit=10&ref=search-result"));
         handleCloseModal();
-    }
+    };
     return (
         <ModalComponent
             title='Search'
@@ -97,10 +98,10 @@ const StoreModal = () => {
                 <ul className='overflow-auto  max-h-[300px]'>
                     {listItemSearch.length && !loading ? (
                         <EachElement
-                            render={(item) => {
+                            render={(item: ListItem) => {
                                 return (
                                     <li onClick={() => {
-                                        window.location.href = `/shop/?&q=${item.label}`;
+                                        window.location.href = `/shop/${item.category}/?&q=${item.label}`;
                                         handleCloseModal();
                                     }} className='border border-b-[1px_solid_#e6e6e6] cursor-pointer rounded scale-[.85] hover:scale-[.95] hover:bg-foreground/20 hover:text-white  hover:transition-all duration-300 hover:duration-300 flex flex-row space-x-4'>
                                         <div className="w-20 h-20 relative">
@@ -113,7 +114,7 @@ const StoreModal = () => {
                                         </div>
                                         <span className='text-lg'>{item.label}</span>
                                     </li>
-                                )
+                                );
                             }}
                             of={listItemSearch}
                         />
@@ -127,7 +128,7 @@ const StoreModal = () => {
                 </ul>
             </div>
         </ModalComponent>
-    )
-}
+    );
+};
 
-export default StoreModal
+export default StoreModal;

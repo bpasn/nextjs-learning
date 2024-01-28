@@ -12,13 +12,7 @@ const Layout = async ({
       <NavLinkList />
       <div className='grid grid-cols-1 md:grid-cols-4 gap-10 mt-10'>
         <div className='filter-product'>
-            <Suspense fallback={(
-            <div>
-              Loading
-            </div>
-          )}>
              <ProductFilterComponent/>
-          </Suspense>
         </div>
         <div className="col-span-3">
           <Suspense fallback={(

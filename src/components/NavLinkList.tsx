@@ -17,12 +17,12 @@ const NavLinkList = () => {
                 </li>
                 <EachElement
                     render={(path, index) => {
-                        const pathSegment = `/${pathName.slice(0, index + 1).join("/")}`
+                        const pathSegment = `/${pathName.slice(0, index + 1).join("/")}`;
                         return (
                             <li className="flex items-center text-sm md:text-lg font-[600] space-x-2 text-[rgba(0,_0,_0,_.45)]">
-                                {pathSegment.length === usePathname().length 
-                                 ? <span className="text-sm md:text-lg font-[600] text-black">{path}</span> 
-                                 : (<Link href={pathSegment} className="text-decoration">{path}</Link>)}
+                                {pathName.length === index + 1 && !searchParams.get("q")
+                                    ? <span className="text-sm md:text-lg font-[600] text-black">{path}</span>
+                                    : (<Link href={pathSegment} className="text-decoration">{path}</Link>)}
                                 {(index + 1) < pathName.length || searchParams.get("q") ? <ChevronRight size={18} /> : ""}
                             </li>
                         );
@@ -36,7 +36,7 @@ const NavLinkList = () => {
                 )}
             </ul>
         </nav>
-    )
-}
+    );
+};
 
-export default NavLinkList
+export default NavLinkList;

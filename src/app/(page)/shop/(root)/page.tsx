@@ -4,6 +4,7 @@ import NotFound from './component/notFoundData';
 import PageTitleContainer from './component/pageTitle';
 import { delay } from '@/lib/utils';
 import { fetchData } from './action/fetchData';
+import Loading from './loading';
 
 const SlugPage = async ({
   searchParams

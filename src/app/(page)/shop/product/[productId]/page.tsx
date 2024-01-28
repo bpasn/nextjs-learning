@@ -39,7 +39,7 @@ const ProductDetail = async ({
   let relatedProduct = await fetchDataRelated(product.category.id);
 
   return (
-    <div className="mt-10">
+    <div className="container max-w-[1400px] mt-10">
       <ProductDetailClient product={product!} relatedProduct={relatedProduct} />
     </div>
   )

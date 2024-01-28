@@ -7,7 +7,7 @@ const Layout = ({
     children: React.ReactNode
 }) => {
     return (
-        <div className="py-8 px-5">
+        <div className="container max-w-[1400px] py-8 px-5">
             <h1 className="text-3xl text-red-500 mb-10">Shipping Cart</h1>
             <Suspense fallback={<DataTableLoadingProvider />}>
                 {children}

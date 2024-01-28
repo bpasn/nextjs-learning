@@ -97,6 +97,9 @@
 .pagination-custom {
   @apply absolute z-20 bottom-0 
 }
+.pagination-custom span{
+  @apply bg-foreground
+}
 
 .navigation-next {
   @apply absolute z-10 top-0 right-0 bottom-0 translate-x-0 translate-y-[50%]
