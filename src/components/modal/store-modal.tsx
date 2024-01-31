@@ -6,16 +6,19 @@ import { delay } from '@/lib/utils';
 import useStoreModal from '@/stores/modal-store';
 import { EachElement } from '@/EachElement';
 import Image from 'next/image';
-import Link from 'next/link';
 import SelectBox from '../SelectBox';
 import { useRouter } from 'next/navigation';
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '../ui/select';
 interface ListItem {
     label: string;
     image: string;
     value: string;
     category: string;
 }
-const StoreModal = () => {
+
+const StoreModal = ({
+    categories
+}: { categories: Category[] }) => {
     const storeModal = useStoreModal();
     const [listItemSearch, setListItemSearch] = useState<ListItem[]>([]);
     const [searchValue, setSearchValue] = useState<string>('');
@@ -86,12 +89,21 @@ const StoreModal = () => {
             title='Search'
             isOpen={storeModal.isOpen}
             onClose={handleCloseModal}
-            size='lg'
+            size="lg"
         >
             <div className="space-y-3">
                 <form onSubmit={handleSubmit}>
                     <div className="flex flex-col md:flex-row space-y-3 md:space-y-0 md:space-x-3">
-                        <SelectBox name='category' />
+                        <Select name='category'>
+                            <SelectTrigger className="w-full md:w-[180px]">
+                                <SelectValue placeholder="All caetgories" />
+                            </SelectTrigger>
+                            <SelectContent>
+                               {categories.map(e => (
+                                <SelectItem value={e.slug}>{e.name}</SelectItem>
+                               ))}
+                            </SelectContent>
+                        </Select>
                         <Input placeholder='Search' className="sticky top-0 z-50  focus-visible:outline-none" name="q" onChange={(e) => handleSearch(e.target.value)} />
                     </div>
                 </form>

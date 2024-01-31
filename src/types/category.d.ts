@@ -1,5 +1,8 @@
-interface CategoryModel {
-    id:string;
-    image?:string;
-    name:string;
+interface Category {
+    id: number;
+    slug: string;
+    name: string;
+    categories: Category[];
+    custom_url: string | null;
+    media?: Media;
 }

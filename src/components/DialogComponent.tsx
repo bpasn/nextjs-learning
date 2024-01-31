@@ -34,7 +34,7 @@ const ModalComponent = ({
     return (
         <Dialog open={isOpen} onOpenChange={onChange}>
             <DialogContent className={cn(
-                "max-w-" + size
+                `w-${size}`
             )}>
                 <DialogHeader>
                     <DialogTitle>{title}</DialogTitle>

@@ -9,10 +9,12 @@ const Layout = async ({
 }) => {
   return (
     <div className='container'>
-      <NavLinkList />
-      <div className='grid grid-cols-1 md:grid-cols-4 gap-10 mt-10'>
-        <div className='filter-product'>
-             <ProductFilterComponent/>
+      <div className="md:block hidden">
+        <NavLinkList />
+      </div>
+      <div className='md:grid md:grid-cols-4 gap-10 mt-10'>
+        <div className='filter-product md:block hidden'>
+          <ProductFilterComponent />
         </div>
         <div className="col-span-3">
           <Suspense fallback={(

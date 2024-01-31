@@ -1,21 +1,23 @@
-import React from 'react';
+import React, { Suspense } from 'react';
 import { fetchData } from './action/fetch';
 import ProductClient from './component/client';
 
-
-const ProductAdminPage = async () => {
-  const data: ProductModel[] = await fetchData(0, 10);
+interface ProductAdminPageProps {
+  searchParams: { [key: string]: string | string | string[] | undefined };
+}
+const ProductAdminPage = async ({
+  searchParams
+}: ProductAdminPageProps) => {
+  const page = Number(searchParams['page'] ?? "1");
+  const pageSize = Number(searchParams['pageSize'] ?? "10")
+  const data: ProductModel[] = await fetchData(page, pageSize);
   return (
     <div>
-      <div className='mb-5'>
-        <h1 className="text-2xl mb-2 font-medium">
-        Products
-        </h1>
-        <h3 className="text-sm text-foreground/40">
-          Manage your Product here.
-        </h3>
-      </div>
-      <ProductClient product={data} />
+      <ProductClient
+        product={data}
+        pageIndex={page}
+        pageSize={pageSize}
+      />
     </div>
   );
 };

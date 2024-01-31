@@ -2,6 +2,7 @@ import React from 'react';
 import SideBarAdminMenu from '../../components/sideBarAdminMenu';
 import { routes } from '@/lib/utils';
 import Link from 'next/link';
+import { EachElement } from '@/EachElement';
 
 const LayoutAdmin = ({
     children
@@ -16,9 +17,10 @@ const LayoutAdmin = ({
                         <a className="mr-6 flex items-center space-x-2" href="/admin">
                             <span className="hidden font-bold sm:inline-block">Admin</span></a>
                         <nav className="flex items-center gap-6 text-sm">
-                            {routes.filter(i => i.role === 'admin').map(item => (
-                                <Link key={item.href} href={item.href}>{item.label}</Link>
-                            ))}
+                            <EachElement
+                                render={(item) =>  <Link key={item.href} href={item.href}>{item.label}</Link>}
+                                of={routes.filter(e => e.role.toUpperCase() === "ADMIN")}
+                            />
                         </nav>
                     </div>
                     <div className="mr-4 flex md:hidden">
@@ -26,7 +28,7 @@ const LayoutAdmin = ({
                     </div>
                 </div>
             </header>
-            <div className='container'>
+            <div className='container max-w-[1200px]'>
                 <main className='relative py-6'>
                     <div className='mx-auto w-full min-w-0'>
                         {children}

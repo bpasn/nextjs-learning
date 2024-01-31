@@ -2,15 +2,22 @@
 import { EachElement } from '@/EachElement';
 import { Routes, cn, routes } from '@/lib/utils';
 import useCartStore from '@/stores/cart-store';
-import { PersonStandingIcon, Search, ShoppingBag, UserRound } from 'lucide-react';
+import { Search, ShoppingBag, UserRound } from 'lucide-react';
 import Link from 'next/link';
 import React from 'react';
 import { Button } from './ui/button';
 import useStoreModal from '@/stores/modal-store';
 import SheetLeftSideMenu from './SheetLeftSideMenu';
-import { signOut, useSession } from 'next-auth/react';
+import { useSession } from 'next-auth/react';
 import { DEFAULT_REDIRECT } from '@/routes';
-const NavbarComponent = () => {
+import StoreModal from './modal/store-modal';
+import { Category } from '@/app/(page)/shop/(root)/action/fetchCategories';
+interface NavBarProps {
+  categories: Category[]
+}
+const NavbarComponent = ({
+  categories
+}: NavBarProps) => {
   const cart = useCartStore(state => state.cart);
   const storeModal = useStoreModal();
   const { data: session } = useSession()
@@ -20,6 +27,9 @@ const NavbarComponent = () => {
         "sticky top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 text-foreground/60 text-lg"
       )
     }>
+      <StoreModal categories={categories}/>
+
+      
       <div className="container flex h-14 max-w-screen-2xl items-center px-5 md:px-0">
         <div className="logo ml-0">
           <div className="mr-4 hidden md:flex">
@@ -33,19 +43,11 @@ const NavbarComponent = () => {
                   return (
                     <Link href={item.href} key={item.label} className={cn(" transition-colors hover:text-foeground/80 text-foreground/60 text-lg")}>{item.label}</Link>
                   )
-                }} of={routes}
+                }} of={routes.filter(e => e.role.toUpperCase() === "USER")}
               />
             </nav>
           </div>
-          <div className={
-            cn(
-              "inline-flex items-center justify-center whitespace-nowrap rounded-md font-meduim transition-colors focus-visible:outline-none focus-visible:ring-ring",
-              "disabled:pointer-events-none disabled:opacity-50 hover:text-accent-foreground h-9 py-2 mr-2 px-0 text-base hover:bg-transparent focus-visible:ring-0 focus-visible:ring-offset-0 md:hidden"
-            )
-          }
-          >
-            <SheetLeftSideMenu />
-          </div>
+          {MobileSideMenu()}
         </div>
         <div className="flex flex-row ml-auto items-center space-x-4">
           <div className='md:border-r md:px-10'>
@@ -65,11 +67,20 @@ const NavbarComponent = () => {
             <Search className="text-start" size={18} />
           </Button>
           {cartBadge()}
-
         </div>
       </div>
     </nav>
   )
+
+  function MobileSideMenu() {
+    return <div className={cn(
+      "inline-flex items-center justify-center whitespace-nowrap rounded-md font-meduim transition-colors focus-visible:outline-none focus-visible:ring-ring",
+      "disabled:pointer-events-none disabled:opacity-50 hover:text-accent-foreground h-9 py-2 mr-2 px-0 text-base hover:bg-transparent focus-visible:ring-0 focus-visible:ring-offset-0 md:hidden"
+    )}
+    >
+      <SheetLeftSideMenu />
+    </div>;
+  }
 
   function cartBadge() {
     "use client";

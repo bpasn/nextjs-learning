@@ -1,17 +1,18 @@
 import NavbarComponent from '@/components/NavbarComponent';
 import ModalProvider from '@/providers/ModalProvider';
 import React from 'react';
+import { getCategories } from './shop/(root)/action/fetchCategories';
 
-const LayoutClient = ({
+const LayoutClient = async ({
     children
 }: {
     children: React.ReactNode;
 }) => {
+    const categories = await getCategories();
     return (
         <div>
-            <NavbarComponent />
+            <NavbarComponent categories={categories}/>
             <main className="relative flex min-h-screen flex-col  px-0">
-                <ModalProvider />
                 {/* <ModalLoginProvider /> */}
                 {children}
             </main>

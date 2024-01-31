@@ -14,7 +14,7 @@ export const categories = [
                         "slug": "apple-ipad-10-2",
                         "name": "iPad",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -24,7 +24,7 @@ export const categories = [
                         "slug": "apple-ipad-air",
                         "name": "iPad Air",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -34,7 +34,7 @@ export const categories = [
                         "slug": "apple-ipad-mini",
                         "name": "iPad mini",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -44,13 +44,13 @@ export const categories = [
                         "slug": "apple-ipad-pro",
                         "name": "iPad Pro",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
                     }
                 ],
-                "custom_url": null,
+                "customUrl": null,
                 "media": {
                     "icons": []
                 }
@@ -65,7 +65,7 @@ export const categories = [
                         "slug": "iphone-15-pro",
                         "name": "iPhone 15 Pro,  iPhone 15 Pro Max",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -75,7 +75,7 @@ export const categories = [
                         "slug": "iphone-15",
                         "name": "iPhone 15, iPhone 15 Plus",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -85,7 +85,7 @@ export const categories = [
                         "slug": "iphone-14-series",
                         "name": "iPhone 14, 14 Plus, 14 Pro, 14 Pro Max",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -95,7 +95,7 @@ export const categories = [
                         "slug": "apple-iphone-13-series",
                         "name": "iPhone 13, 13 mini, 13 Pro, 13 Pro Max",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -105,7 +105,7 @@ export const categories = [
                         "slug": "apple-iphone-12-series",
                         "name": "iPhone 12",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -115,7 +115,7 @@ export const categories = [
                         "slug": "apple-iphone-11-series",
                         "name": "iPhone 11",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -125,13 +125,13 @@ export const categories = [
                         "slug": "apple-iphone-se-2020-series",
                         "name": "iPhone SE",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
                     }
                 ],
-                "custom_url": null,
+                "customUrl": null,
                 "media": {
                     "icons": []
                 }
@@ -146,7 +146,7 @@ export const categories = [
                         "slug": "apple-imac",
                         "name": "iMac",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -156,7 +156,7 @@ export const categories = [
                         "slug": "apple-macbook-air",
                         "name": "MacBook Air",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -166,7 +166,7 @@ export const categories = [
                         "slug": "apple-macbook-pro",
                         "name": "MacBook Pro",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -176,7 +176,7 @@ export const categories = [
                         "slug": "apple-mac-mini",
                         "name": "Mac mini",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -186,7 +186,7 @@ export const categories = [
                         "slug": "mac-studio",
                         "name": "Mac Studio",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -196,13 +196,13 @@ export const categories = [
                         "slug": "studio-displays",
                         "name": "Studio Display",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
                     }
                 ],
-                "custom_url": null,
+                "customUrl": null,
                 "media": {
                     "icons": []
                 }
@@ -217,7 +217,7 @@ export const categories = [
                         "slug": "apple-watch-series-9",
                         "name": "Apple Watch Series 9",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -227,7 +227,7 @@ export const categories = [
                         "slug": "apple-watch-ultra",
                         "name": "Apple Watch Ultra",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -237,7 +237,7 @@ export const categories = [
                         "slug": "apple-watch-series-8",
                         "name": "Apple Watch Series 8",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -247,7 +247,7 @@ export const categories = [
                         "slug": "apple-watch-se",
                         "name": "Apple Watch SE",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -257,13 +257,13 @@ export const categories = [
                         "slug": "apple-watch-bands",
                         "name": "Apple Watch Bands",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
                     }
                 ],
-                "custom_url": null,
+                "customUrl": null,
                 "media": {
                     "icons": []
                 }
@@ -278,7 +278,7 @@ export const categories = [
                         "slug": "apple-airpods-2",
                         "name": "AirPods",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -288,7 +288,7 @@ export const categories = [
                         "slug": "apple-airpods-pro",
                         "name": "AirPods Pro",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -298,7 +298,7 @@ export const categories = [
                         "slug": "apple-airpods-max",
                         "name": "AirPods Max",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -308,13 +308,13 @@ export const categories = [
                         "slug": "apple-music-beats",
                         "name": "Beats",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
                     }
                 ],
-                "custom_url": null,
+                "customUrl": null,
                 "media": {
                     "icons": []
                 }
@@ -329,7 +329,7 @@ export const categories = [
                         "slug": "apple-tv-5th-generation-4k",
                         "name": "Apple TV 4K",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -339,7 +339,7 @@ export const categories = [
                         "slug": "apple-tv-hd",
                         "name": "Apple TV HD",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -349,13 +349,13 @@ export const categories = [
                         "slug": "apple-tv-accessories",
                         "name": "Apple TV Accessories",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
                     }
                 ],
-                "custom_url": null,
+                "customUrl": null,
                 "media": {
                     "icons": []
                 }
@@ -370,7 +370,7 @@ export const categories = [
                         "slug": "airtag-1",
                         "name": "AirTag",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -380,13 +380,13 @@ export const categories = [
                         "slug": "airtag-accessories",
                         "name": "AirTag Accessories",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
                     }
                 ],
-                "custom_url": null,
+                "customUrl": null,
                 "media": {
                     "icons": []
                 }
@@ -401,7 +401,7 @@ export const categories = [
                         "slug": "adapters",
                         "name": "Adapters",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -411,7 +411,7 @@ export const categories = [
                         "slug": "apple-pencil",
                         "name": "Apple Pencil",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -421,7 +421,7 @@ export const categories = [
                         "slug": "cables",
                         "name": "Cables",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -431,7 +431,7 @@ export const categories = [
                         "slug": "apple-accessories-headphones-and-speakers",
                         "name": "Headphones & Speakers",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -441,7 +441,7 @@ export const categories = [
                         "slug": "apple-accessories-case-and-protection",
                         "name": "Cases & Protection",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -451,7 +451,7 @@ export const categories = [
                         "slug": "keyboard-magic-keyboard-for-ipad",
                         "name": "Magic Keyboard",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -461,13 +461,13 @@ export const categories = [
                         "slug": "apple-mac-accessories",
                         "name": "Mac Accessories",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
                     }
                 ],
-                "custom_url": null,
+                "customUrl": null,
                 "media": {
                     "icons": []
                 }
@@ -482,7 +482,7 @@ export const categories = [
                         "slug": "case-magsafe",
                         "name": "Case MagSafe",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -492,7 +492,7 @@ export const categories = [
                         "slug": "other-brands-apple-accessories-case-and-protection-film",
                         "name": "Cases & Protection",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -502,7 +502,7 @@ export const categories = [
                         "slug": "powerbank",
                         "name": "Power Bank",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -512,13 +512,13 @@ export const categories = [
                         "slug": "other-brands-apple-accessories-cable-and-charger",
                         "name": "Power & Cables",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
                     }
                 ],
-                "custom_url": null,
+                "customUrl": null,
                 "media": {
                     "icons": []
                 }
@@ -533,7 +533,7 @@ export const categories = [
                         "slug": "apple-service-tv-plus",
                         "name": "Apple TV+",
                         "categories": [],
-                        "custom_url": "https://www.bnn.in.th/th/pages/apple-service",
+                        "customUrl": "https://www.bnn.in.th/th/pages/apple-service",
                         "media": {
                             "icons": []
                         }
@@ -543,7 +543,7 @@ export const categories = [
                         "slug": "apple-service-music",
                         "name": "Apple Music",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -553,7 +553,7 @@ export const categories = [
                         "slug": "apple-service-arcade",
                         "name": "Apple Arcade",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -563,36 +563,18 @@ export const categories = [
                         "slug": "apple-service-icloud",
                         "name": "iCloud+",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
                     }
                 ],
-                "custom_url": null,
+                "customUrl": null,
                 "media": {
                     "icons": []
                 }
             }
         ],
-        "custom_url": "https://www.bnn.in.th/th/pages/apple-iphone-accessories",
-        "media": {
-            "icons": [
-                {
-                    "id": 193926,
-                    "name": "Display copy 3",
-                    "file_name": "Display-copy-3.png",
-                    "type": "product_image",
-                    "url": "https://media-cdn.bnn.in.th/212853/Display-copy-3.png",
-                    "covers": {
-                        "original": "https://media-cdn.bnn.in.th/212853/Display-copy-3.png",
-                        "thumbnail": "https://media-cdn.bnn.in.th/212853/Display-copy-3-thumbnail.jpg",
-                        "square_small": "https://media-cdn.bnn.in.th/212853/Display-copy-3-square_small.jpg",
-                        "square_medium": "https://media-cdn.bnn.in.th/212853/Display-copy-3-square_medium.jpg"
-                    }
-                }
-            ]
-        }
     },
     {
         "id": 119,
@@ -609,7 +591,7 @@ export const categories = [
                         "slug": "acer-gaming-notebook",
                         "name": "Acer : Nitro, Predator Helios",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -619,7 +601,7 @@ export const categories = [
                         "slug": "asus-gaming-notebook",
                         "name": "Asus : TUF Gaming, ROG Strix",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -629,7 +611,7 @@ export const categories = [
                         "slug": "dell-gaming-notebook",
                         "name": "Dell : Inspiron G15, Alienware",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -639,7 +621,7 @@ export const categories = [
                         "slug": "gigabyte--g5",
                         "name": "Gigabyte : Gaming G5",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -649,7 +631,7 @@ export const categories = [
                         "slug": "hp-gaming-notebook",
                         "name": "HP : Pavilion ,Victus",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -659,7 +641,7 @@ export const categories = [
                         "slug": "lenovo-gaming-notebook",
                         "name": "Lenovo : LOQ, IdeaPad Gaming, Legion",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -669,13 +651,13 @@ export const categories = [
                         "slug": "msi-gaming-notebook",
                         "name": "MSI : Katana, Cyborg",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
                     }
                 ],
-                "custom_url": null,
+                "customUrl": null,
                 "media": {
                     "icons": []
                 }
@@ -690,7 +672,7 @@ export const categories = [
                         "slug": "acer-2-in-1-notebook",
                         "name": "Acer : Spin",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -700,7 +682,7 @@ export const categories = [
                         "slug": "asus-2-in-1-notebook",
                         "name": "Asus : Vivobook, Zenbook",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -710,7 +692,7 @@ export const categories = [
                         "slug": "dell-2-in-1-notebook",
                         "name": "Dell : Latitude, XPS",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -720,7 +702,7 @@ export const categories = [
                         "slug": "hp-2-in-1-notebook",
                         "name": "HP : Pavilion x360, ENVY x360",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -730,7 +712,7 @@ export const categories = [
                         "slug": "lenovo-2-in-1-notebook",
                         "name": "Lenovo : IdeaPad Flex, Yoga, ThinkPad",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -740,7 +722,7 @@ export const categories = [
                         "slug": "msi-2-in-1-notebook",
                         "name": "MSI : Summit",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -750,13 +732,13 @@ export const categories = [
                         "slug": "microsoft-surface-2in1",
                         "name": "Microsoft : Surface, Laptop Studio",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
                     }
                 ],
-                "custom_url": null,
+                "customUrl": null,
                 "media": {
                     "icons": []
                 }
@@ -771,7 +753,7 @@ export const categories = [
                         "slug": "acer-thin-light-notebook",
                         "name": "Acer : Aspire, Swift",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -781,7 +763,7 @@ export const categories = [
                         "slug": "asus-thin-light-notebook",
                         "name": "Asus : Zenbook, Vivobook",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -791,7 +773,7 @@ export const categories = [
                         "slug": "dell-thin-light-notebook",
                         "name": "Dell : Inspiron, Alienware",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -801,7 +783,7 @@ export const categories = [
                         "slug": "fujitsu-thin-light-notebook",
                         "name": "Fujitsu : UH-X",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -811,7 +793,7 @@ export const categories = [
                         "slug": "hp-thin-light-notebook",
                         "name": "HP : Pavilion",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -821,7 +803,7 @@ export const categories = [
                         "slug": "huawei-thin-light-notebook",
                         "name": "Huawei : MateBook",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -831,7 +813,7 @@ export const categories = [
                         "slug": "lenovo-thin-light-notebook",
                         "name": "Lenovo : IdeaPad Slim, Yoga Slim",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -841,7 +823,7 @@ export const categories = [
                         "slug": "lg-gram",
                         "name": "LG : Gram",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -851,7 +833,7 @@ export const categories = [
                         "slug": "microsoft-surface",
                         "name": "Microsoft : Surface Laptop",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -861,7 +843,7 @@ export const categories = [
                         "slug": "msi-thin-light-notebook",
                         "name": "MSI : GF63 Thin, Modern",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -871,13 +853,13 @@ export const categories = [
                         "slug": "realme--realme-book",
                         "name": "Realme : Realme book",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
                     }
                 ],
-                "custom_url": null,
+                "customUrl": null,
                 "media": {
                     "icons": []
                 }
@@ -892,7 +874,7 @@ export const categories = [
                         "slug": "acer-notebook-by-brands",
                         "name": "Acer",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -902,7 +884,7 @@ export const categories = [
                         "slug": "asus-notebook-by-brands",
                         "name": "Asus",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -912,7 +894,7 @@ export const categories = [
                         "slug": "dell-notebook-by-brands",
                         "name": "Dell",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -922,7 +904,7 @@ export const categories = [
                         "slug": "fujitsu-notebook-by-brands",
                         "name": "Fujitsu",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -932,7 +914,7 @@ export const categories = [
                         "slug": "gigabyte",
                         "name": "Gigabyte",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -942,7 +924,7 @@ export const categories = [
                         "slug": "hp-notebook-by-brands",
                         "name": "HP",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -952,7 +934,7 @@ export const categories = [
                         "slug": "huawei-notebook-by-brands",
                         "name": "Huawei",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -962,7 +944,7 @@ export const categories = [
                         "slug": "lenovo-notebook-by-brands",
                         "name": "Lenovo",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -972,7 +954,7 @@ export const categories = [
                         "slug": "lg-notebook",
                         "name": "LG",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -982,7 +964,7 @@ export const categories = [
                         "slug": "microsoft-surface-laptop-notebook-by-brands",
                         "name": "Microsoft Surface",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -992,13 +974,13 @@ export const categories = [
                         "slug": "msi-notebook-by-brands",
                         "name": "MSI",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
                     }
                 ],
-                "custom_url": null,
+                "customUrl": null,
                 "media": {
                     "icons": []
                 }
@@ -1013,7 +995,7 @@ export const categories = [
                         "slug": "mouse-notebook-accessories",
                         "name": "Mouse",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -1023,7 +1005,7 @@ export const categories = [
                         "slug": "mouse-pad-notebook-accessories",
                         "name": "Mouse Pad",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -1033,7 +1015,7 @@ export const categories = [
                         "slug": "laptop-sleeve-notebook-accessories",
                         "name": "Laptop Sleeve",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -1043,19 +1025,19 @@ export const categories = [
                         "slug": "plug-and-adapter-notebook-accessories",
                         "name": "Power & Cables",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
                     }
                 ],
-                "custom_url": null,
+                "customUrl": null,
                 "media": {
                     "icons": []
                 }
             }
         ],
-        "custom_url": "https://www.bnn.in.th/en/p/notebook",
+        "customUrl": "https://www.bnn.in.th/en/p/notebook",
         "media": {
             "icons": [
                 {
@@ -1089,7 +1071,7 @@ export const categories = [
                         "slug": "smartphone-flip",
                         "name": "Flip Phone",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -1099,7 +1081,7 @@ export const categories = [
                         "slug": "benco",
                         "name": "Benco",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -1109,7 +1091,7 @@ export const categories = [
                         "slug": "honor",
                         "name": "Honor",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -1119,7 +1101,7 @@ export const categories = [
                         "slug": "huawei-smartphone",
                         "name": "Huawei",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -1129,7 +1111,7 @@ export const categories = [
                         "slug": "infinix-smartphone",
                         "name": "Infinix",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -1139,7 +1121,7 @@ export const categories = [
                         "slug": "oneplus-smartphone",
                         "name": "Oneplus",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -1149,7 +1131,7 @@ export const categories = [
                         "slug": "oppo-smartphone",
                         "name": "Oppo",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -1159,7 +1141,7 @@ export const categories = [
                         "slug": "realme-smartphone",
                         "name": "Realme",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -1169,7 +1151,7 @@ export const categories = [
                         "slug": "samsung-smartphone",
                         "name": "Samsung",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -1179,7 +1161,7 @@ export const categories = [
                         "slug": "tecno",
                         "name": "Tecno",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -1189,7 +1171,7 @@ export const categories = [
                         "slug": "vivo-smartphone",
                         "name": "Vivo",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -1199,7 +1181,7 @@ export const categories = [
                         "slug": "xiaomi-smartphone",
                         "name": "Xiaomi",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -1209,13 +1191,13 @@ export const categories = [
                         "slug": "other-brands-smartphone",
                         "name": "Other Brands",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
                     }
                 ],
-                "custom_url": null,
+                "customUrl": null,
                 "media": {
                     "icons": []
                 }
@@ -1230,7 +1212,7 @@ export const categories = [
                         "slug": "cases-and-protection-smartphone-accessories",
                         "name": "Cases & Protection",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -1240,7 +1222,7 @@ export const categories = [
                         "slug": "car-charger",
                         "name": "Car Charger",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -1250,7 +1232,7 @@ export const categories = [
                         "slug": "smartphone-powerbank",
                         "name": "Power Bank",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -1260,13 +1242,13 @@ export const categories = [
                         "slug": "power-cables-smartphone-accessories",
                         "name": "Power & Cables",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
                     }
                 ],
-                "custom_url": null,
+                "customUrl": null,
                 "media": {
                     "icons": []
                 }
@@ -1281,7 +1263,7 @@ export const categories = [
                         "slug": "in-ear",
                         "name": "In-ear",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -1291,7 +1273,7 @@ export const categories = [
                         "slug": "earbuds",
                         "name": "Earbuds",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -1301,7 +1283,7 @@ export const categories = [
                         "slug": "full-size-headset",
                         "name": "Full-Size / Headset",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -1311,7 +1293,7 @@ export const categories = [
                         "slug": "bluetooth-true-wireless",
                         "name": "Bluetooth / True Wireless",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -1321,19 +1303,19 @@ export const categories = [
                         "slug": "sport-waterproof-headphone",
                         "name": "Sport / Waterproof Headphone",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
                     }
                 ],
-                "custom_url": null,
+                "customUrl": null,
                 "media": {
                     "icons": []
                 }
             }
         ],
-        "custom_url": null,
+        "customUrl": null,
         "media": {
             "icons": [
                 {
@@ -1367,7 +1349,7 @@ export const categories = [
                         "slug": "air-purifier-and-filter",
                         "name": "Air Purifier",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -1377,7 +1359,7 @@ export const categories = [
                         "slug": "electric-fan",
                         "name": "Electric Fan",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -1387,7 +1369,7 @@ export const categories = [
                         "slug": "iron",
                         "name": "Iron",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -1397,7 +1379,7 @@ export const categories = [
                         "slug": "lighting",
                         "name": "Lightning",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -1407,7 +1389,7 @@ export const categories = [
                         "slug": "robotic-vacuum-cleaner",
                         "name": "Robotic Vacuum Cleaners",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -1417,7 +1399,7 @@ export const categories = [
                         "slug": "showerwater-heaters",
                         "name": "Shower/Water Heaters",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -1427,13 +1409,13 @@ export const categories = [
                         "slug": "water-purifier",
                         "name": "Water Purifier",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
                     }
                 ],
-                "custom_url": null,
+                "customUrl": null,
                 "media": {
                     "icons": []
                 }
@@ -1443,7 +1425,7 @@ export const categories = [
                 "slug": "cleaning-tools",
                 "name": "Cleaning Tools",
                 "categories": [],
-                "custom_url": null,
+                "customUrl": null,
                 "media": {
                     "icons": []
                 }
@@ -1458,7 +1440,7 @@ export const categories = [
                         "slug": "microwaves-ovens",
                         "name": "Microwaves & Ovens",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -1468,7 +1450,7 @@ export const categories = [
                         "slug": "fry-pots",
                         "name": "Fry Pots",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -1478,7 +1460,7 @@ export const categories = [
                         "slug": "blenders-and-juicers",
                         "name": "Blenders & Juicers",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -1488,7 +1470,7 @@ export const categories = [
                         "slug": "coffee-and-tea-makers",
                         "name": "Coffee & Tea Makers",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -1498,7 +1480,7 @@ export const categories = [
                         "slug": "electric-cookers-and-stoves",
                         "name": "Electric Cookers & Stoves",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -1508,7 +1490,7 @@ export const categories = [
                         "slug": "rice-cookers",
                         "name": "Rice Cookers",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -1518,7 +1500,7 @@ export const categories = [
                         "slug": "electric-kettle",
                         "name": "Electric kettle",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -1528,13 +1510,13 @@ export const categories = [
                         "slug": "miscellaneous-kitchenware",
                         "name": "Miscellaneous Kitchenware",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
                     }
                 ],
-                "custom_url": null,
+                "customUrl": null,
                 "media": {
                     "icons": []
                 }
@@ -1549,7 +1531,7 @@ export const categories = [
                         "slug": "lightning-system",
                         "name": "Lightning System",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -1559,7 +1541,7 @@ export const categories = [
                         "slug": "detection-and-sensor",
                         "name": "Detection & Sensor",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -1569,13 +1551,13 @@ export const categories = [
                         "slug": "home-automation",
                         "name": "Home Automation",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
                     }
                 ],
-                "custom_url": null,
+                "customUrl": null,
                 "media": {
                     "icons": []
                 }
@@ -1590,13 +1572,13 @@ export const categories = [
                         "slug": "google-assistant-speaker",
                         "name": "Google",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
                     }
                 ],
-                "custom_url": null,
+                "customUrl": null,
                 "media": {
                     "icons": []
                 }
@@ -1611,7 +1593,7 @@ export const categories = [
                         "slug": "wi-fi-camera",
                         "name": "Indoor",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -1621,13 +1603,13 @@ export const categories = [
                         "slug": "ip-camera",
                         "name": "Outdoor",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
                     }
                 ],
-                "custom_url": null,
+                "customUrl": null,
                 "media": {
                     "icons": []
                 }
@@ -1637,13 +1619,13 @@ export const categories = [
                 "slug": "pets-and-animal",
                 "name": "Petkit & Animal",
                 "categories": [],
-                "custom_url": null,
+                "customUrl": null,
                 "media": {
                     "icons": []
                 }
             }
         ],
-        "custom_url": null,
+        "customUrl": null,
         "media": {
             "icons": [
                 {
@@ -1672,7 +1654,7 @@ export const categories = [
                 "slug": "computer-set-1",
                 "name": "Computer Set",
                 "categories": [],
-                "custom_url": null,
+                "customUrl": null,
                 "media": {
                     "icons": []
                 }
@@ -1687,7 +1669,7 @@ export const categories = [
                         "slug": "acer-all-in-one",
                         "name": "Acer",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -1697,7 +1679,7 @@ export const categories = [
                         "slug": "asus-all-in-one",
                         "name": "Asus",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -1707,7 +1689,7 @@ export const categories = [
                         "slug": "dell-all-in-one",
                         "name": "Dell",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -1717,7 +1699,7 @@ export const categories = [
                         "slug": "hp-compaq-all-in-one",
                         "name": "HP-COMPAQ",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -1727,7 +1709,7 @@ export const categories = [
                         "slug": "lenovo-all-in-one",
                         "name": "Lenovo",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -1737,13 +1719,13 @@ export const categories = [
                         "slug": "msi",
                         "name": "MSI",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
                     }
                 ],
-                "custom_url": null,
+                "customUrl": null,
                 "media": {
                     "icons": []
                 }
@@ -1758,7 +1740,7 @@ export const categories = [
                         "slug": "acer-desktop",
                         "name": "Acer",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -1768,7 +1750,7 @@ export const categories = [
                         "slug": "asus-desktop",
                         "name": "Asus",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -1778,7 +1760,7 @@ export const categories = [
                         "slug": "dell-desktop",
                         "name": "Dell",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -1788,7 +1770,7 @@ export const categories = [
                         "slug": "hp-compaq-desktop",
                         "name": "HP-COMPAQ",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -1798,7 +1780,7 @@ export const categories = [
                         "slug": "lenovo-desktop",
                         "name": "Lenovo",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -1808,13 +1790,13 @@ export const categories = [
                         "slug": "desktop-msi",
                         "name": "MSI",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
                     }
                 ],
-                "custom_url": null,
+                "customUrl": null,
                 "media": {
                     "icons": []
                 }
@@ -1829,7 +1811,7 @@ export const categories = [
                         "slug": "acer-gaming-desktop",
                         "name": "Acer",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -1839,7 +1821,7 @@ export const categories = [
                         "slug": "asus-gaming-desktop",
                         "name": "Asus",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -1849,7 +1831,7 @@ export const categories = [
                         "slug": "gaming-desktop-dell",
                         "name": "Dell",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -1859,7 +1841,7 @@ export const categories = [
                         "slug": "hp-compaq-gaming-desktop",
                         "name": "HP-COMPAQ",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -1869,7 +1851,7 @@ export const categories = [
                         "slug": "lenovo-gaming-desktop",
                         "name": "Lenovo",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -1879,13 +1861,13 @@ export const categories = [
                         "slug": "msi-gaming-desktop",
                         "name": "MSI",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
                     }
                 ],
-                "custom_url": null,
+                "customUrl": null,
                 "media": {
                     "icons": []
                 }
@@ -1900,7 +1882,7 @@ export const categories = [
                         "slug": "asus-mini-pc",
                         "name": "Asus",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -1910,19 +1892,19 @@ export const categories = [
                         "slug": "msi-mini-pc",
                         "name": "MSI",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
                     }
                 ],
-                "custom_url": null,
+                "customUrl": null,
                 "media": {
                     "icons": []
                 }
             }
         ],
-        "custom_url": null,
+        "customUrl": null,
         "media": {
             "icons": [
                 {
@@ -1951,7 +1933,7 @@ export const categories = [
                 "slug": "e-quip",
                 "name": "Customize Your Spec",
                 "categories": [],
-                "custom_url": null,
+                "customUrl": null,
                 "media": {
                     "icons": []
                 }
@@ -1966,7 +1948,7 @@ export const categories = [
                         "slug": "comset-intel",
                         "name": "Intel",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -1976,13 +1958,13 @@ export const categories = [
                         "slug": "comset-amd",
                         "name": "AMD",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
                     }
                 ],
-                "custom_url": null,
+                "customUrl": null,
                 "media": {
                     "icons": []
                 }
@@ -1997,7 +1979,7 @@ export const categories = [
                         "slug": "acer-monitor-computer-hardware-diy",
                         "name": "ACER",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -2007,7 +1989,7 @@ export const categories = [
                         "slug": "aoc-monitor-computer-hardware-diy",
                         "name": "AOC",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -2017,7 +1999,7 @@ export const categories = [
                         "slug": "asus-monitor-computer-hardware-diy",
                         "name": "ASUS",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -2027,7 +2009,7 @@ export const categories = [
                         "slug": "benq-computer-hardware-diy",
                         "name": "BENQ",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -2037,7 +2019,7 @@ export const categories = [
                         "slug": "cooler-master-monitor-computer-hardware-diy",
                         "name": "COOLER MASTER",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -2047,7 +2029,7 @@ export const categories = [
                         "slug": "other-brand-monitor",
                         "name": "DAHUA",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -2057,7 +2039,7 @@ export const categories = [
                         "slug": "dell-monitor-computer-hardware-diy",
                         "name": "DELL",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -2067,7 +2049,7 @@ export const categories = [
                         "slug": "gigabyte-monitor-computer-hardware-diy",
                         "name": "GIGABYTE",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -2077,7 +2059,7 @@ export const categories = [
                         "slug": "hp-monitor-computer-hardware-diy",
                         "name": "HP",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -2087,7 +2069,7 @@ export const categories = [
                         "slug": "ipason-monitor-computer-hardware-diy",
                         "name": "IPASON",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -2097,7 +2079,7 @@ export const categories = [
                         "slug": "huawei-computer-hardware-diy",
                         "name": "HUAWEI",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -2107,7 +2089,7 @@ export const categories = [
                         "slug": "lenovo-monitor-computer-hardware-diy",
                         "name": "LENOVO",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -2117,7 +2099,7 @@ export const categories = [
                         "slug": "lg-monitor-computer-hardware-diy",
                         "name": "LG",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -2127,7 +2109,7 @@ export const categories = [
                         "slug": "msi-monitor-computer-hardware-diy",
                         "name": "MSI",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -2137,7 +2119,7 @@ export const categories = [
                         "slug": "philips-monitor-computer-hardware-diy",
                         "name": "PHILIPS",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -2147,7 +2129,7 @@ export const categories = [
                         "slug": "samsung-monitor-computer-hardware-diy",
                         "name": "SAMSUNG",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -2157,7 +2139,7 @@ export const categories = [
                         "slug": "skyworth",
                         "name": "SKYWORTH",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -2167,7 +2149,7 @@ export const categories = [
                         "slug": "viewsonic-computer-hardware-diy",
                         "name": "VIEWSONIC",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -2177,13 +2159,13 @@ export const categories = [
                         "slug": "xiaomi-computer-hardware-diy",
                         "name": "XIAOMI",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
                     }
                 ],
-                "custom_url": null,
+                "customUrl": null,
                 "media": {
                     "icons": []
                 }
@@ -2198,7 +2180,7 @@ export const categories = [
                         "slug": "amd-graphic-card-computer-hardware-diy",
                         "name": "AMD",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -2208,7 +2190,7 @@ export const categories = [
                         "slug": "nvidia-graphic-card-computer-hardware-diy",
                         "name": "NVIDIA",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -2218,13 +2200,13 @@ export const categories = [
                         "slug": "intel-graphic-card-computer-hardware-diy",
                         "name": "INTEL",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
                     }
                 ],
-                "custom_url": null,
+                "customUrl": null,
                 "media": {
                     "icons": []
                 }
@@ -2239,7 +2221,7 @@ export const categories = [
                         "slug": "amd-cpu-computer-hardware-diy",
                         "name": "AMD",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -2249,13 +2231,13 @@ export const categories = [
                         "slug": "intel-cpu-computer-hardware-diy",
                         "name": "Intel",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
                     }
                 ],
-                "custom_url": null,
+                "customUrl": null,
                 "media": {
                     "icons": []
                 }
@@ -2270,7 +2252,7 @@ export const categories = [
                         "slug": "amd-mainboard-computer-hardware-diy",
                         "name": "For AMD",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -2280,13 +2262,13 @@ export const categories = [
                         "slug": "intel-mainboard-computer-hardware-diy",
                         "name": "For Intel",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
                     }
                 ],
-                "custom_url": null,
+                "customUrl": null,
                 "media": {
                     "icons": []
                 }
@@ -2301,7 +2283,7 @@ export const categories = [
                         "slug": "ram-for-pc-computer-hardware-diy",
                         "name": "Ram for PC",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -2311,13 +2293,13 @@ export const categories = [
                         "slug": "ram-for-notebook-computer-hardware-diy",
                         "name": "Ram for Notebook",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
                     }
                 ],
-                "custom_url": null,
+                "customUrl": null,
                 "media": {
                     "icons": []
                 }
@@ -2332,7 +2314,7 @@ export const categories = [
                         "slug": "internal-drive-optical-drive",
                         "name": "Internal Drive",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -2342,13 +2324,13 @@ export const categories = [
                         "slug": "external-drive-optical-drive",
                         "name": "External Drive",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
                     }
                 ],
-                "custom_url": null,
+                "customUrl": null,
                 "media": {
                     "icons": []
                 }
@@ -2363,7 +2345,7 @@ export const categories = [
                         "slug": "harddisk-internal-hdd",
                         "name": "Internal Harddisk (HDD)",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -2373,7 +2355,7 @@ export const categories = [
                         "slug": "solid-state-drive-internal-ssd",
                         "name": "Solid State Drive Internal (SSD)",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -2383,13 +2365,13 @@ export const categories = [
                         "slug": "m2-harddisk-and-solid-state-drive",
                         "name": "M.2",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
                     }
                 ],
-                "custom_url": null,
+                "customUrl": null,
                 "media": {
                     "icons": []
                 }
@@ -2404,7 +2386,7 @@ export const categories = [
                         "slug": "cpu-cooler",
                         "name": "CPU Cooler",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -2414,7 +2396,7 @@ export const categories = [
                         "slug": "case-coolers",
                         "name": "Case Cooler",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -2424,13 +2406,13 @@ export const categories = [
                         "slug": "cooling-system-accessories",
                         "name": "Cooling System Accessories",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
                     }
                 ],
-                "custom_url": null,
+                "customUrl": null,
                 "media": {
                     "icons": []
                 }
@@ -2445,7 +2427,7 @@ export const categories = [
                         "slug": "computer-case",
                         "name": "Computer Case",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -2455,7 +2437,7 @@ export const categories = [
                         "slug": "power-supply",
                         "name": "Power Supply",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -2465,13 +2447,13 @@ export const categories = [
                         "slug": "computer-set",
                         "name": "Computer Set",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
                     }
                 ],
-                "custom_url": null,
+                "customUrl": null,
                 "media": {
                     "icons": []
                 }
@@ -2486,7 +2468,7 @@ export const categories = [
                         "slug": "multifunction-printer-and-supplies",
                         "name": "Multi-Function",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -2496,7 +2478,7 @@ export const categories = [
                         "slug": "portable-printer",
                         "name": "Portable Printer",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -2506,7 +2488,7 @@ export const categories = [
                         "slug": "dot-matrix-printer",
                         "name": "Dot-Matrix Printer",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -2516,13 +2498,13 @@ export const categories = [
                         "slug": "ink-and-toner-cartridges",
                         "name": "Ink and Toner Cartridges",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
                     }
                 ],
-                "custom_url": null,
+                "customUrl": null,
                 "media": {
                     "icons": []
                 }
@@ -2537,13 +2519,13 @@ export const categories = [
                         "slug": "ups-computer-heardware-diy-2",
                         "name": "UPS",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
                     }
                 ],
-                "custom_url": null,
+                "customUrl": null,
                 "media": {
                     "icons": []
                 }
@@ -2558,7 +2540,7 @@ export const categories = [
                         "slug": "microsoft-windows",
                         "name": "Microsoft Windows",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -2568,7 +2550,7 @@ export const categories = [
                         "slug": "microsoft-office",
                         "name": "Microsoft Office",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -2578,13 +2560,13 @@ export const categories = [
                         "slug": "security-and-antivirus",
                         "name": "Firewall & Antivirus",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
                     }
                 ],
-                "custom_url": null,
+                "customUrl": null,
                 "media": {
                     "icons": []
                 }
@@ -2599,7 +2581,7 @@ export const categories = [
                         "slug": "samsung",
                         "name": "Samsung",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -2609,13 +2591,13 @@ export const categories = [
                         "slug": "projector-xaiomi",
                         "name": "Xaiomi",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
                     }
                 ],
-                "custom_url": null,
+                "customUrl": null,
                 "media": {
                     "icons": []
                 }
@@ -2630,7 +2612,7 @@ export const categories = [
                         "slug": "external-sound-card",
                         "name": "External Sound Card",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -2640,19 +2622,19 @@ export const categories = [
                         "slug": "internal-sound-card",
                         "name": "Internal Sound Card",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
                     }
                 ],
-                "custom_url": null,
+                "customUrl": null,
                 "media": {
                     "icons": []
                 }
             }
         ],
-        "custom_url": null,
+        "customUrl": null,
         "media": {
             "icons": [
                 {
@@ -2686,7 +2668,7 @@ export const categories = [
                         "slug": "honor-tablet",
                         "name": "Honor",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -2696,7 +2678,7 @@ export const categories = [
                         "slug": "huawei-tablet",
                         "name": "Huawei",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -2706,7 +2688,7 @@ export const categories = [
                         "slug": "lenovo-tablet",
                         "name": "Lenovo",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -2716,7 +2698,7 @@ export const categories = [
                         "slug": "microsoft-surface-tablet",
                         "name": "Microsoft Surface",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -2726,7 +2708,7 @@ export const categories = [
                         "slug": "oppo-tablet",
                         "name": "OPPO",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -2736,7 +2718,7 @@ export const categories = [
                         "slug": "realme-tablet",
                         "name": "Realme",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -2746,7 +2728,7 @@ export const categories = [
                         "slug": "samsung-tablet",
                         "name": "Samsung",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -2756,13 +2738,13 @@ export const categories = [
                         "slug": "xiaomi-tablet",
                         "name": "Xiaomi",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
                     }
                 ],
-                "custom_url": null,
+                "customUrl": null,
                 "media": {
                     "icons": []
                 }
@@ -2777,7 +2759,7 @@ export const categories = [
                         "slug": "case-and-protection-tablet-accessories",
                         "name": "Cases & Protection",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -2787,7 +2769,7 @@ export const categories = [
                         "slug": "power-cables-tablet-accessories",
                         "name": "Power & Cables",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -2797,7 +2779,7 @@ export const categories = [
                         "slug": "stylus-pen",
                         "name": "Stylus / Pen",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -2807,19 +2789,19 @@ export const categories = [
                         "slug": "surface-accesories-tablet-accessories",
                         "name": "Microsoft Surface Accessories",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
                     }
                 ],
-                "custom_url": null,
+                "customUrl": null,
                 "media": {
                     "icons": []
                 }
             }
         ],
-        "custom_url": null,
+        "customUrl": null,
         "media": {
             "icons": [
                 {
@@ -2853,7 +2835,7 @@ export const categories = [
                         "slug": "playstation-0",
                         "name": "PlayStation",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -2863,7 +2845,7 @@ export const categories = [
                         "slug": "nintendo-switch",
                         "name": "Nintendo Switch",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -2873,13 +2855,13 @@ export const categories = [
                         "slug": "rog-ally",
                         "name": "ROG Ally",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
                     }
                 ],
-                "custom_url": null,
+                "customUrl": null,
                 "media": {
                     "icons": []
                 }
@@ -2894,7 +2876,7 @@ export const categories = [
                         "slug": "playstation-2",
                         "name": "Game for PlayStation",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -2904,13 +2886,13 @@ export const categories = [
                         "slug": "nintendo-switch-0",
                         "name": "Game for Nintendo Switch",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
                     }
                 ],
-                "custom_url": null,
+                "customUrl": null,
                 "media": {
                     "icons": []
                 }
@@ -2925,7 +2907,7 @@ export const categories = [
                         "slug": "gaming-controller",
                         "name": "Gaming Controller",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -2935,7 +2917,7 @@ export const categories = [
                         "slug": "gaming-mouse",
                         "name": "Gaming Mouse",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -2945,7 +2927,7 @@ export const categories = [
                         "slug": "gaming-keyboard",
                         "name": "Gaming Keyboard",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -2955,7 +2937,7 @@ export const categories = [
                         "slug": "gaming-mouse-and-keyboard-set",
                         "name": "Gaming Mouse & Keyboard Set",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -2965,7 +2947,7 @@ export const categories = [
                         "slug": "gaming-headphone",
                         "name": "Gaming Headphone",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -2975,7 +2957,7 @@ export const categories = [
                         "slug": "gaming-mouse-pad",
                         "name": "Gaming Mouse Pad",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -2985,7 +2967,7 @@ export const categories = [
                         "slug": "gaming-chairs",
                         "name": "Gaming Chairs",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -2995,7 +2977,7 @@ export const categories = [
                         "slug": "gaming-desk",
                         "name": "Gaming Desk",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -3005,7 +2987,7 @@ export const categories = [
                         "slug": "gaming-vr",
                         "name": "Gaming VR",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -3015,13 +2997,13 @@ export const categories = [
                         "slug": "simulator",
                         "name": "Simulator",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
                     }
                 ],
-                "custom_url": null,
+                "customUrl": null,
                 "media": {
                     "icons": []
                 }
@@ -3036,7 +3018,7 @@ export const categories = [
                         "slug": "microphone-1",
                         "name": "Microphone",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -3046,7 +3028,7 @@ export const categories = [
                         "slug": "live-streamer",
                         "name": "Live Streamer",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -3056,13 +3038,13 @@ export const categories = [
                         "slug": "consoles-and-accessories-1",
                         "name": "Consoles & Accessories",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
                     }
                 ],
-                "custom_url": null,
+                "customUrl": null,
                 "media": {
                     "icons": []
                 }
@@ -3077,7 +3059,7 @@ export const categories = [
                         "slug": "gaming-controller-1",
                         "name": "Gaming Controller",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -3087,19 +3069,19 @@ export const categories = [
                         "slug": "gaming-gear-accessories",
                         "name": "Gaming Gear Accessories",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
                     }
                 ],
-                "custom_url": null,
+                "customUrl": null,
                 "media": {
                     "icons": []
                 }
             }
         ],
-        "custom_url": null,
+        "customUrl": null,
         "media": {
             "icons": [
                 {
@@ -3133,7 +3115,7 @@ export const categories = [
                         "slug": "bluetooth-speaker",
                         "name": "Bluetooth Speaker",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -3143,7 +3125,7 @@ export const categories = [
                         "slug": "portable-speakers",
                         "name": "Portable Speaker",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -3153,7 +3135,7 @@ export const categories = [
                         "slug": "turntable",
                         "name": "Turntable",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -3163,7 +3145,7 @@ export const categories = [
                         "slug": "soundbar",
                         "name": "Soundbar",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -3173,13 +3155,13 @@ export const categories = [
                         "slug": "computer-speaker",
                         "name": "Computer Speaker",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
                     }
                 ],
-                "custom_url": null,
+                "customUrl": null,
                 "media": {
                     "icons": []
                 }
@@ -3194,7 +3176,7 @@ export const categories = [
                         "slug": "bando-speaker",
                         "name": "B&O",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -3204,7 +3186,7 @@ export const categories = [
                         "slug": "fender-speaker",
                         "name": "Fender",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -3214,7 +3196,7 @@ export const categories = [
                         "slug": "jbl-speaker",
                         "name": "JBL",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -3224,7 +3206,7 @@ export const categories = [
                         "slug": "marshall-speaker",
                         "name": "Marshall",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -3234,13 +3216,13 @@ export const categories = [
                         "slug": "sony-speaker",
                         "name": "Sony",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
                     }
                 ],
-                "custom_url": null,
+                "customUrl": null,
                 "media": {
                     "icons": []
                 }
@@ -3255,7 +3237,7 @@ export const categories = [
                         "slug": "in-ear-headphone",
                         "name": "In-ear",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -3265,7 +3247,7 @@ export const categories = [
                         "slug": "headphone-earbuds",
                         "name": "Earbuds",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -3275,7 +3257,7 @@ export const categories = [
                         "slug": "headphone-full-size-headset",
                         "name": "Full-Size / Headset",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -3285,7 +3267,7 @@ export const categories = [
                         "slug": "headphone-bluetooth-true-wireless",
                         "name": "Bluetooth / True Wireless",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -3295,13 +3277,13 @@ export const categories = [
                         "slug": "sport-water-proof-headphone",
                         "name": "Sport / Waterproof Headphone",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
                     }
                 ],
-                "custom_url": null,
+                "customUrl": null,
                 "media": {
                     "icons": []
                 }
@@ -3316,7 +3298,7 @@ export const categories = [
                         "slug": "lg-smart-tv",
                         "name": "LG",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -3326,7 +3308,7 @@ export const categories = [
                         "slug": "realme-smart-tv",
                         "name": "REALME",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -3336,7 +3318,7 @@ export const categories = [
                         "slug": "samsung-smart-tv",
                         "name": "SAMSUNG",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -3346,7 +3328,7 @@ export const categories = [
                         "slug": "sharp-smart-tv",
                         "name": "SHARP",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -3356,7 +3338,7 @@ export const categories = [
                         "slug": "tcl-smart-tv",
                         "name": "TCL",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -3366,13 +3348,13 @@ export const categories = [
                         "slug": "xiaomi-1",
                         "name": "Xiaomi",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
                     }
                 ],
-                "custom_url": null,
+                "customUrl": null,
                 "media": {
                     "icons": []
                 }
@@ -3387,7 +3369,7 @@ export const categories = [
                         "slug": "android-box-and-tv-stick-home-en",
                         "name": "Android Box & TV Stick",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -3397,7 +3379,7 @@ export const categories = [
                         "slug": "tv-cable-and-connectors-home-en",
                         "name": "TV Cable & Connectors",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -3407,19 +3389,19 @@ export const categories = [
                         "slug": "tv-wall-mount-home-en",
                         "name": "TV Wall Mount",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
                     }
                 ],
-                "custom_url": null,
+                "customUrl": null,
                 "media": {
                     "icons": []
                 }
             }
         ],
-        "custom_url": null,
+        "customUrl": null,
         "media": {
             "icons": [
                 {
@@ -3453,7 +3435,7 @@ export const categories = [
                         "slug": "adapter-and-usb-hub",
                         "name": "Power & Cables",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -3463,13 +3445,13 @@ export const categories = [
                         "slug": "plug-1",
                         "name": "Plug",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
                     }
                 ],
-                "custom_url": null,
+                "customUrl": null,
                 "media": {
                     "icons": []
                 }
@@ -3484,7 +3466,7 @@ export const categories = [
                         "slug": "mouse-1",
                         "name": "Mouse",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -3494,7 +3476,7 @@ export const categories = [
                         "slug": "keyboard-and-numpad",
                         "name": "Keyboard & Numpad",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -3504,7 +3486,7 @@ export const categories = [
                         "slug": "mouse-and-keyboard-set",
                         "name": "Mouse & Keyboard Set",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -3514,13 +3496,13 @@ export const categories = [
                         "slug": "mouse-pad",
                         "name": "Mouse Pad",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
                     }
                 ],
-                "custom_url": null,
+                "customUrl": null,
                 "media": {
                     "icons": []
                 }
@@ -3535,13 +3517,13 @@ export const categories = [
                         "slug": "data-cable",
                         "name": "Data cable",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
                     }
                 ],
-                "custom_url": null,
+                "customUrl": null,
                 "media": {
                     "icons": []
                 }
@@ -3556,7 +3538,7 @@ export const categories = [
                         "slug": "backpack-1",
                         "name": "Backpack",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -3566,7 +3548,7 @@ export const categories = [
                         "slug": "laptop-bag",
                         "name": "Laptop Bag",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -3576,7 +3558,7 @@ export const categories = [
                         "slug": "sling-bag",
                         "name": "Crossbody",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -3586,13 +3568,13 @@ export const categories = [
                         "slug": "travel-luggage",
                         "name": "Travel Luggage",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
                     }
                 ],
-                "custom_url": null,
+                "customUrl": null,
                 "media": {
                     "icons": []
                 }
@@ -3607,7 +3589,7 @@ export const categories = [
                         "slug": "usb-drive",
                         "name": "USB Flash Drive",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -3617,13 +3599,13 @@ export const categories = [
                         "slug": "lightning-flash-drive",
                         "name": "Lightning Flash Drive",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
                     }
                 ],
-                "custom_url": null,
+                "customUrl": null,
                 "media": {
                     "icons": []
                 }
@@ -3638,7 +3620,7 @@ export const categories = [
                         "slug": "card-reader-and-usb-hub-1",
                         "name": "Port HUB",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -3648,13 +3630,13 @@ export const categories = [
                         "slug": "card-reader",
                         "name": "Card Reader",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
                     }
                 ],
-                "custom_url": null,
+                "customUrl": null,
                 "media": {
                     "icons": []
                 }
@@ -3669,7 +3651,7 @@ export const categories = [
                         "slug": "harddisk-external-hdd",
                         "name": "External Harddisk (HDD)",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -3679,13 +3661,13 @@ export const categories = [
                         "slug": "solid-state-drive-external-ssd",
                         "name": "Solid State Drive External (SSD)",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
                     }
                 ],
-                "custom_url": null,
+                "customUrl": null,
                 "media": {
                     "icons": []
                 }
@@ -3700,7 +3682,7 @@ export const categories = [
                         "slug": "micro-sd-card-tf-card",
                         "name": "Micro SD Card",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -3710,13 +3692,13 @@ export const categories = [
                         "slug": "sd-card",
                         "name": "SD Card",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
                     }
                 ],
-                "custom_url": null,
+                "customUrl": null,
                 "media": {
                     "icons": []
                 }
@@ -3731,7 +3713,7 @@ export const categories = [
                         "slug": "batteries-1",
                         "name": "Batteries",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -3741,7 +3723,7 @@ export const categories = [
                         "slug": "cleaning-agents",
                         "name": "Cleaning Tools",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -3751,7 +3733,7 @@ export const categories = [
                         "slug": "pointer",
                         "name": "Pointer",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -3761,19 +3743,19 @@ export const categories = [
                         "slug": "laptop-stand",
                         "name": "Laptop Stand",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
                     }
                 ],
-                "custom_url": null,
+                "customUrl": null,
                 "media": {
                     "icons": []
                 }
             }
         ],
-        "custom_url": null,
+        "customUrl": null,
         "media": {
             "icons": [
                 {
@@ -3807,7 +3789,7 @@ export const categories = [
                         "slug": "amazfit-smartwatch",
                         "name": "Amazfit",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -3817,7 +3799,7 @@ export const categories = [
                         "slug": "garmin-smartwatch",
                         "name": "Garmin",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -3827,7 +3809,7 @@ export const categories = [
                         "slug": "honor-1",
                         "name": "Honor",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -3837,7 +3819,7 @@ export const categories = [
                         "slug": "huawei-smartwatch",
                         "name": "Huawei",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -3847,7 +3829,7 @@ export const categories = [
                         "slug": "kieslect-smartwatch",
                         "name": "Kieslect",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -3857,7 +3839,7 @@ export const categories = [
                         "slug": "imoo-smartwatch",
                         "name": "Imoo",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -3867,7 +3849,7 @@ export const categories = [
                         "slug": "smartwatch-maimo",
                         "name": "Maimo",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -3877,7 +3859,7 @@ export const categories = [
                         "slug": "oppo-smartwatch",
                         "name": "Oppo",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -3887,7 +3869,7 @@ export const categories = [
                         "slug": "real-me-smartwatch",
                         "name": "Realme",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -3897,7 +3879,7 @@ export const categories = [
                         "slug": "samsung-smartwatch",
                         "name": "Samsung",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -3907,7 +3889,7 @@ export const categories = [
                         "slug": "ticwatch-smartwatch",
                         "name": "TicWatch",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -3917,7 +3899,7 @@ export const categories = [
                         "slug": "xiaomi-smartwatch",
                         "name": "Xiaomi",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -3927,13 +3909,13 @@ export const categories = [
                         "slug": "smart-watch-accessories",
                         "name": "Smart Watch accessories",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
                     }
                 ],
-                "custom_url": null,
+                "customUrl": null,
                 "media": {
                     "icons": []
                 }
@@ -3948,7 +3930,7 @@ export const categories = [
                         "slug": "drones-and-accessories",
                         "name": "Drones & Accessories",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -3958,7 +3940,7 @@ export const categories = [
                         "slug": "underwater-equipment",
                         "name": "Underwater equipment",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -3968,7 +3950,7 @@ export const categories = [
                         "slug": "scooter-and-segway",
                         "name": "Scooter & Segway",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -3978,13 +3960,13 @@ export const categories = [
                         "slug": "bike-and-accesseries",
                         "name": "Bike & Accessories",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
                     }
                 ],
-                "custom_url": null,
+                "customUrl": null,
                 "media": {
                     "icons": []
                 }
@@ -3999,7 +3981,7 @@ export const categories = [
                         "slug": "sanitiser",
                         "name": "Sanitiser",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -4009,7 +3991,7 @@ export const categories = [
                         "slug": "personal-care",
                         "name": "Personal Care",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -4019,13 +4001,13 @@ export const categories = [
                         "slug": "sport-equipment",
                         "name": "Health & Sport Equipment",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
                     }
                 ],
-                "custom_url": null,
+                "customUrl": null,
                 "media": {
                     "icons": []
                 }
@@ -4040,7 +4022,7 @@ export const categories = [
                         "slug": "education-and-innovation",
                         "name": "Education & Innovation",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -4050,7 +4032,7 @@ export const categories = [
                         "slug": "toys",
                         "name": "Figure/Toy",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -4060,13 +4042,13 @@ export const categories = [
                         "slug": "miscellenous-sport-health-and-gadgets",
                         "name": "Miscellaneous",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
                     }
                 ],
-                "custom_url": null,
+                "customUrl": null,
                 "media": {
                     "icons": []
                 }
@@ -4081,7 +4063,7 @@ export const categories = [
                         "slug": "action-camera-",
                         "name": "Action Camera",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -4091,7 +4073,7 @@ export const categories = [
                         "slug": "instant-camera-and-polaroid",
                         "name": "Instant Camera & Polaroid",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -4101,7 +4083,7 @@ export const categories = [
                         "slug": "dash-cam-",
                         "name": "Dash Cam",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -4111,7 +4093,7 @@ export const categories = [
                         "slug": "vlog-and-live-",
                         "name": "Vlog & Live",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -4121,19 +4103,19 @@ export const categories = [
                         "slug": "camera-accessories",
                         "name": "Camera Accessories",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
                     }
                 ],
-                "custom_url": null,
+                "customUrl": null,
                 "media": {
                     "icons": []
                 }
             }
         ],
-        "custom_url": null,
+        "customUrl": null,
         "media": {
             "icons": [
                 {
@@ -4167,7 +4149,7 @@ export const categories = [
                         "slug": "wi-fi-router",
                         "name": "Wi-Fi Router",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -4177,7 +4159,7 @@ export const categories = [
                         "slug": "portable-mobile-lte-router",
                         "name": "Portable (Mobile (LTE)) Router",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -4187,13 +4169,13 @@ export const categories = [
                         "slug": "mesh-wi-fi",
                         "name": "Mesh Wi-Fi",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
                     }
                 ],
-                "custom_url": null,
+                "customUrl": null,
                 "media": {
                     "icons": []
                 }
@@ -4203,7 +4185,7 @@ export const categories = [
                 "slug": "nas-btc-miner",
                 "name": "NAS & Crypto Miner",
                 "categories": [],
-                "custom_url": null,
+                "customUrl": null,
                 "media": {
                     "icons": []
                 }
@@ -4218,7 +4200,7 @@ export const categories = [
                         "slug": "access-point",
                         "name": "Access Point",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -4228,7 +4210,7 @@ export const categories = [
                         "slug": "powerlines-extender",
                         "name": "Powerline Extender",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -4238,7 +4220,7 @@ export const categories = [
                         "slug": "wifi-repeater-and-range-extender",
                         "name": "WiFi Repeater & Range Extender",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -4248,13 +4230,13 @@ export const categories = [
                         "slug": "usb-and-pcie-wifi-receiver",
                         "name": "USB & PCIe WiFi Receiver",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
                     }
                 ],
-                "custom_url": null,
+                "customUrl": null,
                 "media": {
                     "icons": []
                 }
@@ -4269,7 +4251,7 @@ export const categories = [
                         "slug": "switch-hub",
                         "name": "Switch & Hub",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -4279,19 +4261,19 @@ export const categories = [
                         "slug": "ethernet-cable-adapter",
                         "name": "Ethernet Cable & Adapter",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
                     }
                 ],
-                "custom_url": null,
+                "customUrl": null,
                 "media": {
                     "icons": []
                 }
             }
         ],
-        "custom_url": null,
+        "customUrl": null,
         "media": {
             "icons": [
                 {
@@ -4325,7 +4307,7 @@ export const categories = [
                         "slug": "acer",
                         "name": "Acer",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -4335,7 +4317,7 @@ export const categories = [
                         "slug": "amd",
                         "name": "AMD",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -4345,7 +4327,7 @@ export const categories = [
                         "slug": "asrock",
                         "name": "ASRock",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -4355,13 +4337,13 @@ export const categories = [
                         "slug": "asus",
                         "name": "Asus",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
                     }
                 ],
-                "custom_url": null,
+                "customUrl": null,
                 "media": {
                     "icons": []
                 }
@@ -4376,7 +4358,7 @@ export const categories = [
                         "slug": "shop-beats",
                         "name": "Beats",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -4386,7 +4368,7 @@ export const categories = [
                         "slug": "belkin",
                         "name": "Belkin",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -4396,13 +4378,13 @@ export const categories = [
                         "slug": "shop-bang-olufsen",
                         "name": "B&O",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
                     }
                 ],
-                "custom_url": null,
+                "customUrl": null,
                 "media": {
                     "icons": []
                 }
@@ -4417,7 +4399,7 @@ export const categories = [
                         "slug": "cooler-master",
                         "name": "Cooler Master",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -4427,13 +4409,13 @@ export const categories = [
                         "slug": "corsair",
                         "name": "Corsair",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
                     }
                 ],
-                "custom_url": null,
+                "customUrl": null,
                 "media": {
                     "icons": []
                 }
@@ -4448,7 +4430,7 @@ export const categories = [
                         "slug": "dell",
                         "name": "Dell",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -4458,13 +4440,13 @@ export const categories = [
                         "slug": "dji",
                         "name": "DJI",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
                     }
                 ],
-                "custom_url": null,
+                "customUrl": null,
                 "media": {
                     "icons": []
                 }
@@ -4479,13 +4461,13 @@ export const categories = [
                         "slug": "shop-fender",
                         "name": "Fender",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
                     }
                 ],
-                "custom_url": null,
+                "customUrl": null,
                 "media": {
                     "icons": []
                 }
@@ -4500,13 +4482,13 @@ export const categories = [
                         "slug": "brand-gigabyte",
                         "name": "GIGABYTE",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
                     }
                 ],
-                "custom_url": null,
+                "customUrl": null,
                 "media": {
                     "icons": []
                 }
@@ -4521,7 +4503,7 @@ export const categories = [
                         "slug": "hp",
                         "name": "HP",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -4531,7 +4513,7 @@ export const categories = [
                         "slug": "huawei",
                         "name": "Huawei",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -4541,13 +4523,13 @@ export const categories = [
                         "slug": "hyperx-",
                         "name": "HyperX",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
                     }
                 ],
-                "custom_url": null,
+                "customUrl": null,
                 "media": {
                     "icons": []
                 }
@@ -4562,7 +4544,7 @@ export const categories = [
                         "slug": "intel",
                         "name": "Intel",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -4572,13 +4554,13 @@ export const categories = [
                         "slug": "ipason-brand",
                         "name": "IPASON",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
                     }
                 ],
-                "custom_url": null,
+                "customUrl": null,
                 "media": {
                     "icons": []
                 }
@@ -4593,7 +4575,7 @@ export const categories = [
                         "slug": "shop-jabra",
                         "name": "Jabra",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -4603,13 +4585,13 @@ export const categories = [
                         "slug": "jbl",
                         "name": "JBL",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
                     }
                 ],
-                "custom_url": null,
+                "customUrl": null,
                 "media": {
                     "icons": []
                 }
@@ -4624,13 +4606,13 @@ export const categories = [
                         "slug": "kingston",
                         "name": "Kingston",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
                     }
                 ],
-                "custom_url": null,
+                "customUrl": null,
                 "media": {
                     "icons": []
                 }
@@ -4645,7 +4627,7 @@ export const categories = [
                         "slug": "logitech",
                         "name": "Logitech",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -4655,13 +4637,13 @@ export const categories = [
                         "slug": "lenovo",
                         "name": "Lenovo",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
                     }
                 ],
-                "custom_url": null,
+                "customUrl": null,
                 "media": {
                     "icons": []
                 }
@@ -4676,7 +4658,7 @@ export const categories = [
                         "slug": "marshall",
                         "name": "Marshall",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -4686,7 +4668,7 @@ export const categories = [
                         "slug": "microsoft",
                         "name": "Microsoft",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -4696,13 +4678,13 @@ export const categories = [
                         "slug": "msi-",
                         "name": "MSI",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
                     }
                 ],
-                "custom_url": null,
+                "customUrl": null,
                 "media": {
                     "icons": []
                 }
@@ -4717,13 +4699,13 @@ export const categories = [
                         "slug": "nzxt",
                         "name": "NZXT",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
                     }
                 ],
-                "custom_url": null,
+                "customUrl": null,
                 "media": {
                     "icons": []
                 }
@@ -4738,13 +4720,13 @@ export const categories = [
                         "slug": "razer-",
                         "name": "Razer",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
                     }
                 ],
-                "custom_url": null,
+                "customUrl": null,
                 "media": {
                     "icons": []
                 }
@@ -4759,7 +4741,7 @@ export const categories = [
                         "slug": "samsung-",
                         "name": "Samsung",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -4769,7 +4751,7 @@ export const categories = [
                         "slug": "sandisk",
                         "name": "SanDisk",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -4779,7 +4761,7 @@ export const categories = [
                         "slug": "seagate-",
                         "name": "Seagate",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -4789,7 +4771,7 @@ export const categories = [
                         "slug": "sony",
                         "name": "Sony",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -4799,13 +4781,13 @@ export const categories = [
                         "slug": "steelseries-",
                         "name": "SteelSeries",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
                     }
                 ],
-                "custom_url": null,
+                "customUrl": null,
                 "media": {
                     "icons": []
                 }
@@ -4820,13 +4802,13 @@ export const categories = [
                         "slug": "tp-link",
                         "name": "TP-Link",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
                     }
                 ],
-                "custom_url": null,
+                "customUrl": null,
                 "media": {
                     "icons": []
                 }
@@ -4841,7 +4823,7 @@ export const categories = [
                         "slug": "uag",
                         "name": "UAG",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
@@ -4851,13 +4833,13 @@ export const categories = [
                         "slug": "ugreen",
                         "name": "UGREEN",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
                     }
                 ],
-                "custom_url": null,
+                "customUrl": null,
                 "media": {
                     "icons": []
                 }
@@ -4872,13 +4854,13 @@ export const categories = [
                         "slug": "western",
                         "name": "Western",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
                     }
                 ],
-                "custom_url": null,
+                "customUrl": null,
                 "media": {
                     "icons": []
                 }
@@ -4893,19 +4875,19 @@ export const categories = [
                         "slug": "xiaomi-",
                         "name": "Xiaomi",
                         "categories": [],
-                        "custom_url": null,
+                        "customUrl": null,
                         "media": {
                             "icons": []
                         }
                     }
                 ],
-                "custom_url": null,
+                "customUrl": null,
                 "media": {
                     "icons": []
                 }
             }
         ],
-        "custom_url": null,
+        "customUrl": null,
         "media": {
             "icons": [
                 {

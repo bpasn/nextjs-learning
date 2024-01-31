@@ -39,7 +39,7 @@ export const productColumn: ColumnDef<ProductModel>[] = [
         header: "Created"
     },
     {
-        accessorKey: "id",
+        accessorKey: "",
         header: "Action",
         cell() {
             return (

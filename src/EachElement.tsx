@@ -1,5 +1,4 @@
-'use client';
-import { Children, useEffect, useState } from "react";
+import { Children } from "react";
 
 interface EachElementProps {
     render: (item: any, index: number) => React.ReactNode,
