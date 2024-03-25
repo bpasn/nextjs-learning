@@ -1,5 +1,4 @@
-import React from 'react'
-
+"use client";
 interface HeadingProps {
     title: string;
     description: string;
@@ -10,7 +9,7 @@ const Heading = ({
     description
 }: HeadingProps) => {
     return (
-        <div>
+        <div className='flex flex-col gap-5'>
             <h2 className='text-3xl font-bold tracking-tight'>{title}</h2>
             <p className='text-sm text-muted-foreground'>{description}</p>
         </div>

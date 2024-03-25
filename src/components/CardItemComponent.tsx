@@ -3,7 +3,6 @@ import React from 'react';
 import {
     Card,
     CardContent,
-    CardDescription,
     CardFooter,
     CardHeader,
     CardTitle
@@ -39,7 +38,9 @@ const CardItemComponent = ({
             </CardHeader>
             <CardContent >
                 <div className="">
-                    <Link href={href! ?? ''}>
+                    <div onClick={() => {
+                        href ? window.location.href = href : null
+                    }}>
                         <Image
                             src={image.search(/\.(jpg|jpeg|png)$/i) > -1 ? image : ""}
                             alt='product'
@@ -47,12 +48,13 @@ const CardItemComponent = ({
                             height={300}
                             className='object-contain'
                             style={{
-                                width:"100%",
-                                height:"300px"
+                                width: "100%",
+                                height: "300px"
                             }}
                             onLoad={() => (<>Loading...</>)}
+                            loading="lazy"
                         />
-                    </Link>
+                    </div>
                 </div>
                 {title && <p className="text-xl">{title}</p>}
                 {price && <span className="text-lg text-red-500">{formatted(String(price))}</span>}

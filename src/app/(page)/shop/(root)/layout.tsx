@@ -1,7 +1,7 @@
 import NavLinkList from '@/components/NavLinkList';
-import React, { Suspense } from 'react';
+import React from 'react';
 import ProductFilterComponent from './component/productFilter';
-
+import { headers } from 'next/headers';
 const Layout = async ({
   children,
 }: {
@@ -17,13 +17,8 @@ const Layout = async ({
           <ProductFilterComponent />
         </div>
         <div className="col-span-3">
-          <Suspense fallback={(
-            <div>
-              Loading
-            </div>
-          )}>
-            {children}
-          </Suspense>
+          {children}
+          
         </div>
       </div>
     </div>

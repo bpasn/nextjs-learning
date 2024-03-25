@@ -1,10 +1,8 @@
-import React, { Suspense } from 'react'
+import React from 'react'
 import ShopClient from './component/client';
-import NotFound from './component/notFoundData';
 import PageTitleContainer from './component/pageTitle';
 import { delay } from '@/lib/utils';
 import { fetchData } from './action/fetchData';
-import Loading from './loading';
 
 const SlugPage = async ({
   searchParams
@@ -16,9 +14,9 @@ const SlugPage = async ({
 }) => {
   await delay(1.5 * 1000)
   const data = await fetchData(searchParams.categoryId, searchParams.q);
-  if (!data.length) return (
-    <NotFound />
-  )
+  if (!data.length) {
+    throw new Error("Please try to remove some filters or try other keywords.", { cause: "We couldn’t find any results" })
+  }
   return (
     <div>
       <PageTitleContainer countResult={data.length} />

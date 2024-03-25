@@ -25,3 +25,10 @@ export const routes: Routes[] = [
   { label: "Categories", href: "/admin/categories", role: "admin" },
   { label: "Products", href: "/admin/products", role: "admin" },
 ];
+
+export const report = (title:string,message:string) => {
+  throw new Error(JSON.stringify({
+    message: message,
+    title: title
+  }))
+}

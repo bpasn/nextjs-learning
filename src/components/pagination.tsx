@@ -2,6 +2,7 @@ import React from 'react'
 import { Pagination, PaginationContent, PaginationEllipsis, PaginationItem, PaginationLink, PaginationNext, PaginationPrevious } from './ui/pagination'
 import { cn } from '@/lib/utils'
 import { count } from 'console'
+import { useRouter } from 'next/navigation';
 
 interface PaginationProps {
     pageIndex: number;
@@ -28,18 +29,19 @@ const PaginationComponent = ({
                     ) : (
                         <PaginationItem >
                             <PaginationLink
-                                className={
-                                    cn(
-                                        pageIndex === e ? "bg-foreground text-white" : ""
-                                    )
-                                }
                                 href={{
                                     pathname: "",
                                     query: {
                                         page: e,
                                         pageSize: 10
                                     }
-                                }}>{e}</PaginationLink>
+                                }}
+                                className={
+                                    cn(
+                                        pageIndex === e ? "bg-foreground text-white" : ""
+                                    )
+                                }
+                            >{e}</PaginationLink>
                         </PaginationItem>
                     )
                 })}

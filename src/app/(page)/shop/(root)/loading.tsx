@@ -1,4 +1,3 @@
-import { EachElement } from '@/EachElement';
 import { Card, CardContent, CardFooter, CardHeader, CardTitle } from '@/components/ui/card';
 import { cn } from '@/lib/utils';
 import React from 'react';

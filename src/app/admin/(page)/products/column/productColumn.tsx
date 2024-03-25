@@ -1,3 +1,4 @@
+'use client';
 import { Button } from "@/components/ui/button";
 import { ColumnDef } from "@tanstack/react-table";
 import { Trash2 } from "lucide-react";
@@ -15,7 +16,7 @@ export const productColumn: ColumnDef<ProductModel>[] = [
                 <Image
                     width={100}
                     height={100}
-                    src={original.images[0].search(/\.(jpg|jpeg|png)$/i) > -1 ? original.images[0] : ""}
+                    src={original.images[0].search(/\.(jpg|jpeg|png)$/i) > -1 ? original.images[0] : "https://www.free-css.com/assets/files/free-css-templates/preview/page287/eflyer/assets/images/banner-bg.png"}
                     alt="productImage"
                     className="object-contain rounded-md"
                 />

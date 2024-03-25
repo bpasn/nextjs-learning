@@ -33,8 +33,11 @@
     "**/*.ts",
     "**/*.tsx",
     ".next/types/**/*.ts",
-    "src/app/(page)/(homepage)/layout.tsx"
-, "src/app/(page)/shop/(root)/page.tsx.back"  ],
+    "src/app/(page)/(homepage)/layout.tsx",
+    "src/app/(page)/shop/(root)/page.tsx.back",
+    "src/app/admin/products/layout.tsx",
+    "src/app/(page)/shop/(root)/loading.tsx"
+  ],
   "exclude": [
     "node_modules"
   ]

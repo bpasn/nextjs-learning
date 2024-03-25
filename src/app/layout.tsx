@@ -1,14 +1,8 @@
 import type { Metadata } from 'next'
 import './globals.css'
-import NavbarComponent from '@/components/NavbarComponent'
-import ModalProvider from '@/providers/ModalProvider'
 import { SessionProvider} from 'next-auth/react'
 import { auth } from '@/auth'
 
-export const metadata: Metadata = {
-  title: 'Nextjs Learning',
-  description: 'Learning nextjs for building website e-commerce',
-}
 
 export default async function RootLayout({
   children,

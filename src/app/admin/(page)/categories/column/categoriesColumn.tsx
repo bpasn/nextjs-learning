@@ -1,4 +1,4 @@
-import { Category } from "@/app/(page)/shop/(root)/action/fetchCategories";
+import { Category } from "@prisma/client";
 import { ColumnDef } from "@tanstack/react-table";
 
 export const categoriesColumn: ColumnDef<Category>[] = [

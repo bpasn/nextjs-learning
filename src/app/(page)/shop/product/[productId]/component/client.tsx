@@ -32,7 +32,7 @@ const ProductDetailClient = ({
         category
     } = product;
     const cartStore = useCartStore();
-    const [showImage, setShowImage] = useState(images?.[0]);
+    const [showImage, setShowImage] = useState(images?.[0].search(/\.(jpg|jpeg|png)$/i) > -1 ? images?.[0] : "");
     return (
         <div>
             <div className='flex flex-col md:grid  md:grid-cols-2'>
@@ -45,15 +45,16 @@ const ProductDetailClient = ({
                                 alt='product-detail'
                                 fill
                                 className='object-contain'
+                                priority
                             />
                         </section>
-                        <section className='flex flex-row overflow-x-scroll overflow-y-hidden space-x-5 p-4 mx-14 mt-5'>
+                        <section className='flex flex-row overflow-x-scroll overflow-y-hidden space-x-2 md:space-x-5 md:p-4 md:mx-14 mt-5'>
                             <EachElement
                                 render={(image: string, index: number) => (
                                     <Image
                                         key={index}
-                                        onClick={() => setShowImage(image)}
-                                        src={image}
+                                        onClick={() => setShowImage(image.search(/\.(jpg|jpeg|png)$/i) > -1 ? image : "")}
+                                        src={image.search(/\.(jpg|jpeg|png)$/i) > -1 ? image : ""}
                                         alt='product-detail'
                                         width={1024}
                                         height={1024}

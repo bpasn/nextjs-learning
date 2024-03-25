@@ -1,6 +1,4 @@
 'use client';
-
-import { categories } from '@/app/(page)/shop/(root)/action/category';
 import { Button } from '@/components/ui/button';
 import {
     Form,
@@ -14,17 +12,21 @@ import Heading from "@/components/ui/heading";
 import { Input } from '@/components/ui/input';
 import { CategoryInfer, CategoryResover } from "@/schemas/categories";
 import { Category } from '@prisma/client';
-import { useFieldArray, useForm } from "react-hook-form";
+import { useForm } from "react-hook-form";
 
 interface CategoriesForm {
     categories?: Category | null
 }
 const CategoriesForm = ({
-
+    categories
 }: CategoriesForm) => {
     const form = useForm<CategoryInfer>({
         resolver: CategoryResover,
-        defaultValues: categories[0]
+        defaultValues: categories ? categories : {
+            categories: [],
+            name: "",
+            slug: ""
+        }
     });
     const onSubmit = async (data: CategoryInfer) => {
         const result = await fetch("/api/admin/categories", {

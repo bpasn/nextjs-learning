@@ -10,6 +10,7 @@ const BannerComponent = () => {
                 {Array.from({ length: 10 }, (_, i) => i + 1).map((_, i) => (
                     <SwiperSlide key={i} className='relative  h-[550px_!important] space-x-1'>
                         <Image
+                            priority={_ === 1}
                             fill
                             src={"https://www.free-css.com/assets/files/free-css-templates/preview/page287/eflyer/assets/images/banner-bg.png"}
                             alt="sliderImg2"

@@ -81,7 +81,7 @@ const StoreModal = ({
         if (querySearch) {
             url = url.concat("?&q=" + querySearch);
         }
-        navigate.push(url.concat("?&p=0&limit=10&ref=search-result"));
+        window.location.href = url.concat("?&p=0&limit=10&ref=search-result");
         handleCloseModal();
     };
     return (
@@ -100,7 +100,7 @@ const StoreModal = ({
                             </SelectTrigger>
                             <SelectContent>
                                {categories.map(e => (
-                                <SelectItem value={e.slug}>{e.name}</SelectItem>
+                                <SelectItem key={e.slug} value={e.slug}>{e.name}</SelectItem>
                                ))}
                             </SelectContent>
                         </Select>
@@ -118,7 +118,7 @@ const StoreModal = ({
                                     }} className='border border-b-[1px_solid_#e6e6e6] cursor-pointer rounded scale-[.85] hover:scale-[.95] hover:bg-foreground/20 hover:text-white  hover:transition-all duration-300 hover:duration-300 flex flex-row space-x-4'>
                                         <div className="w-20 h-20 relative">
                                             <Image
-                                                src={item.image}
+                                                src={item.image.search(/\.(jpg|jpeg|png)$/i) > -1 ? item.image : ""}
                                                 fill
                                                 alt="image"
                                                 className="object-contain"

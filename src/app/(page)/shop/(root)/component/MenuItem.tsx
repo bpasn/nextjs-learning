@@ -1,6 +1,5 @@
 'use client';
 import React, { useEffect, useState } from 'react'
-import { Category } from '../action/fetchCategories'
 import { cn } from '@/lib/utils';
 import { Minus, Plus } from 'lucide-react';
 import Link from 'next/link';

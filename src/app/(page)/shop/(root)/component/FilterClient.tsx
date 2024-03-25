@@ -9,7 +9,6 @@ import {
 import { Checkbox } from '@/components/ui/checkbox';
 import MenuItem from './MenuItem';
 import { BrandsItem } from '../action/queryBrand';
-import { Category } from '../action/fetchCategories';
 
 interface FilterClientProps {
     brands: BrandsItem[];
