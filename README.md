@@ -87,6 +87,9 @@ type PointsDiscount = { type: "points"; points: number; };
 type SeasonalDiscount = { type: "seasonal"; every_x: number; discount_y: number; };
 ```
 
+---
+
+
 ```typescript
 import { calculateFinalPrice } from './moduleDiscount';
 
