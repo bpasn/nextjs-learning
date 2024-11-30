@@ -110,6 +110,114 @@ const finalPrice = calculateFinalPrice(carts, discounts);
 console.log(`ราคาสินค้าหลังจากใช้ส่วนลด: ${finalPrice} บาท`);
 ```
 
+## วิธีการรัน API
+
+ในการรัน API บนเครื่องของคุณ ให้ทำตามขั้นตอนดังนี้:
+
+
+**เริ่มต้น API:** 
+
+```bash
+npm run start:api
+# or
+yarn run start:api
+```
+
+---
+
+## API Endpoint: `/upload-json`
+
+จุดเชื่อมต่อนี้ให้ผู้ใช้สามารถอัพโหลดไฟล์ JSON ที่มีข้อมูลสินค้าหรือส่วนลด ระบบจะประมวลผลไฟล์และคืนราคาสุดท้ายหลังจากที่ใช้ส่วนลดทั้งหมดแล้ว
+
+### Method: `POST`
+
+### URL: http://localhost:3000/upload-json
+### Request Body (form-data):
+
+คุณต้องส่งไฟล์ในรูปแบบ `multipart/form-data` โดยใช้ key เป็น `file`.
+
+**โครงสร้างไฟล์:**
+
+ไฟล์ JSON ควรมีโครงสร้างดังนี้:
+
+```json
+{
+    "carts": [
+        {
+            "name": "Product Name",
+            "price": "Product Price",
+            "category": "Product Category"
+        },
+        ...
+    ],
+    "discounts": [
+        {
+            "type": "fixed_amount_coupon",
+            "amount": 50
+        },
+        {
+            "type": "category_discount",
+            "category": "Clothing",
+            "percentage": 15
+        },
+        ...
+    ]
+}
+```
+
+ตัวอย่างการส่งคำขอ:
+ใน Postman ให้ทำตามขั้นตอนนี้เพื่ออัพโหลดไฟล์:
+
+ตั้งค่า method เป็น POST
+ตั้ง URL เป็น http://localhost:3000/upload-json
+ในแท็บ "Body" ให้เลือก form-data
+เลือกไฟล์ที่ต้องการอัพโหลด โดยใช้ key เป็น file
+กด Send
+ตัวอย่างการตอบกลับ:
+API จะตอบกลับด้วยราคาสุดท้ายหลังจากใช้ส่วนลดทั้งหมด:
+
+```json
+{
+    "finalPrice": 892.5
+}
+```
+
+## การจัดการข้อผิดพลาด
+หากเกิดปัญหากับไฟล์ที่อัพโหลดหรือข้อมูลภายในไฟล์ไม่ถูกต้อง ระบบจะส่งข้อผิดพลาดพร้อมรหัสสถานะ HTTP ที่เกี่ยวข้อง
+
+## ตัวอย่างข้อผิดพลาด
+1. **ไฟล์ไม่ถูกต้อง (ไม่ใช่ไฟล์ JSON)**
+```json
+{
+    "error": "Invalid file type. Only JSON files are allowed."
+}
+```
+2. **เนื้อหาของไฟล์ว่างเปล่า**
+```json
+{
+    "error": "File content is empty."
+}
+```
+3. **โครงสร้าง JSON ไม่ถูกต้อง (ต้องเป็น array สำหรับ carts และ discounts)**
+```json
+{
+    "error": "Invalid JSON structure. Expected arrays for carts and discounts."
+}
+```
+
+การทดสอบ API
+หากต้องการทดสอบ API คุณสามารถใช้ Jest ในการทดสอบด้วยคำสั่ง:
+
+รันการทดสอบ:
+
+ใช้คำสั่งที่จำเป็นในการรันการทดสอบ
+
+กรณีทดสอบ:
+
+อัพโหลดไฟล์ที่ถูกต้อง: ทดสอบว่าระบบคำนวณราคาสุดท้ายได้ถูกต้องเมื่อข้อมูลในไฟล์ JSON ถูกต้อง
+อัพโหลดไฟล์ที่ไม่ถูกต้อง: ทดสอบการตอบกลับข้อผิดพลาดเมื่อไฟล์หรือโครงสร้างข้อมูลไม่ถูกต้อง
+
+
 ### ฟังก์ชันหลัก
 
 1. **`calculateFinalPrice(carts: CartItem[], discounts: Discount[]): number`**  
