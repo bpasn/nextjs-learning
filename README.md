@@ -1,7 +1,7 @@
 # Discount Module
 
 ## ผู้พัฒนา
-นาย พิรุณพร เอี่ยมสูงเนิน
+[นาย พิรุณพร เอี่ยมสูงเนิน]
 
 ---
 
@@ -225,18 +225,20 @@ yarn start:api
 {
     "error": "Invalid JSON structure. Expected arrays for carts and discounts."
 }
-
+```
 4. **JSON Body ไม่มี carts**
 ```json
 {
     "error": "Field carts is required"
 }
-4. **JSON Body ไม่มี discounts**
+```
+5. **JSON Body ไม่มี discounts**
 ```json
 {
     "error": "Field discounts is required"
 }
-5. **โปรแกรม Error**
+```
+6. **โปรแกรม Error**
 ```json
 {
     "error": "Internal Server Error"
