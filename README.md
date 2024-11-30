@@ -130,7 +130,7 @@ yarn start:api
 ## รายละเอียด API
 ## API Endpoint: `/calculate-discount/upload-json`
 
-ผู้ใช้สามารถอัปโหลดไฟล์ JSON ที่มีข้อมูลสินค้าและส่วนลดที่ต้องการใช้งานผ่าน HTTP POST Request ไปยัง endpoint นี้ ระบบจะทำการประมวลผลและคำนวณราคาสินค้าหลังจากที่ใช้ส่วนลดทั้งหมดแล้วและคืนค่าผลลัพธ์เป็นราคาสุดท้ายในรูปแบบ JSON
+ผู้ใช้สามารถอัปโหลดไฟล์ JSON หรือ การส่ง JSON ผ่าน Body ที่มีข้อมูลสินค้าและส่วนลดที่ต้องการใช้งานผ่าน HTTP POST Request ไปยัง endpoint นี้ ระบบจะทำการประมวลผลและคำนวณราคาสินค้าหลังจากที่ใช้ส่วนลดทั้งหมดแล้วและคืนค่าผลลัพธ์เป็นราคาสุดท้ายในรูปแบบ JSON
 
 ### Method: `POST`
 
@@ -138,10 +138,11 @@ yarn start:api
 ### Request Body (form-data)
 
 คุณต้องส่งไฟล์ในรูปแบบ `multipart/form-data` โดยใช้ key เป็น `file`.
+หรือส่งไฟล์ในรูปแบบ `application/json`
 
 **รูปแบบการส่งข้อมูล**
 
-ไฟล์ JSON ควรมีโครงสร้างดังนี้
+ไฟล์ JSON หรือ JSON Body ควรมีโครงสร้างดังนี้
 
 ```json
 {
@@ -169,9 +170,9 @@ yarn start:api
 ```
 
 **ตัวอย่างการทำงาน**
-1. **รับไฟล์ JSON: ผู้ใช้จะต้องอัปโหลดไฟล์ JSON ที่มีข้อมูลสินค้าใน carts และส่วนลดใน discounts**
+1. **รับไฟล์ JSON หรือ JSON Body: ผู้ใช้จะต้องอัปโหลดไฟล์ JSON หรือ JSON Body ที่มีข้อมูลสินค้าใน carts และส่วนลดใน discounts**
 
-2. **ประมวลผลข้อมูล: โมดูลจะคำนวณราคาสินค้าหลังจากใช้ส่วนลดตามที่ระบุในไฟล์ JSON ไม่ว่าจะเป็นส่วนลดจากคูปองจำนวนเงิน, ส่วนลดจากเปอร์เซ็นต์, หรือส่วนลดตามหมวดหมู่**
+2. **ประมวลผลข้อมูล: โมดูลจะคำนวณราคาสินค้าหลังจากใช้ส่วนลดตามที่ระบุในไฟล์ JSON หรือ JSON Body ไม่ว่าจะเป็นส่วนลดจากคูปองจำนวนเงิน, ส่วนลดจากเปอร์เซ็นต์, หรือส่วนลดตามหมวดหมู่**
 
 3. ผลลัพธ์: **หลังจากการคำนวณ ระบบจะส่งผลลัพธ์กลับเป็น JSON ซึ่งประกอบด้วยราคาสุดท้ายหลังจากใช้ส่วนลดทั้งหมดแล้ว**
 
@@ -181,6 +182,8 @@ yarn start:api
 }
 ```
 **วิธีการใช้งาน API**
+
+ใช้การอัพโหลดไฟล์ JSON
 1. **การส่งคำขอ API (POST Request): สามารถส่งคำขอ HTTP POST ไปยัง URL http://localhost:3000/calculate-discount/upload-json พร้อมกับไฟล์ JSON ในรูปแบบ multipart/form-data**
 
 2. **ตัวอย่างการทดสอบด้วย Postman:**
@@ -188,6 +191,16 @@ yarn start:api
    - ตั้งค่า URL เป็น http://localhost:3000/calculate-discount/upload-json
    - ในแท็บ Body เลือก form-data
    - อัปโหลดไฟล์ JSON โดยใช้ key เป็น file
+   - กด Send เพื่อลองทดสอบ API
+
+ใช้การส่งแบบ JSON Body
+1. **การส่งคำขอ API (POST Request): สามารถส่งคำขอ HTTP POST ไปยัง URL http://localhost:3000/calculate-discount พร้อมกับ JSON Body ในรูปแบบ application/json**
+
+2. **ตัวอย่างการทดสอบด้วย Postman:**
+   - ตั้งค่า HTTP Method เป็น POST
+   - ตั้งค่า URL เป็น http://localhost:3000/calculate-discount
+   - ในแท็บ Body เลือก raw จากนั้นคลิกที่ dropdown และเลือกเป็น JSON
+   - ใส่ข้อมูลในรูปแบบ JSON
    - กด Send เพื่อลองทดสอบ API
 
 ## การจัดการข้อผิดพลาด
@@ -206,22 +219,30 @@ yarn start:api
     "error": "File content is empty."
 }
 ```
-3. **โครงสร้าง JSON ไม่ถูกต้อง (ต้องเป็น array สำหรับ carts และ discounts)**
+3. **โครงสร้าง JSON หรือ JSON Body ไม่ถูกต้อง (ต้องเป็น array สำหรับ carts และ discounts)**
 ```json
 {
     "error": "Invalid JSON structure. Expected arrays for carts and discounts."
 }
+
+4. **JSON Body ไม่มี carts**
+```json
+{
+    "error": "Field carts is required"
+}
+4. **JSON Body ไม่มี discounts**
+```json
+{
+    "error": "Field discounts is required"
+}
+5. **โปรแกรม Error**
+```json
+{
+    "error": "Internal Server Error"
+}
 ```
 
-## การทดสอบ API
-หากต้องการทดสอบ API คุณสามารถใช้ Jest ในการทดสอบด้วยคำสั่ง
-รันการทดสอบ
-```bash
-npm run test 
-# or
-yarn test
-```
----
+
 
 ### ฟังก์ชันหลัก
 
