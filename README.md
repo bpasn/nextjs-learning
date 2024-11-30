@@ -321,6 +321,11 @@ POST /calculate-discount
    ✓ should return 500 for internal server errors (1 ms)
    Success
    ✓ should return the final price if everything is valid (2 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       5 passed, 5 total
+Snapshots:   0 total
+Time:        1.329 s, estimated 3 s
 ```
 ---
 
@@ -354,25 +359,24 @@ yarn test:module
 
 ```plaintext
 $ jest
- PASS  src/__tests__/discount.test.ts
+ PASS  tests/module/discount.test.ts
   DiscountModule
     Success
       Apply Coupon, On Top, and Seasonal Discount
-        ✓ should apply Fixed Amount Coupon, Category Discount (On Top), and Seasonal Discount correctly
-        ✓ should apply Percentage Coupon, Category Discount (On Top), and Seasonal Discount correctly
+        ✓ should apply Fixed Amount Coupon, Category Discount (On Top), and Seasonal Discount correctly (1 ms)
+        ✓ should apply Percentage Coupon, Category Discount (On Top), and Seasonal Discount correctly (1 ms)
       Apply Fixed Amount Coupon and Category Discount (On Top)
-        ✓ should apply Fixed Amount Coupon and Category Discount (On Top) correctly
+        ✓ should apply Fixed Amount Coupon and Category Discount (On Top) correctly (3 ms)
       ...
     Error
       Invalid Cart Items
-        ✓ should throw an error if cart item name is invalid
-        ✓ should throw an error if cart item price is invalid
-      Invalid Discounts
-        ✓ should throw an error if multiple coupons are used
-        ✓ should throw an error if discount type is invalid
+        ✓ should throw an error if cart item name is invalid (9 ms)
+        ✓ should throw an error if cart item price is invalid (1 ms)
+      ...
     Function
       applyCouponDiscount
         ✓ applyCouponDiscount should apply fixed amount discount correctly
+        ✓ applyCouponDiscount should apply percentage discount correctly
       ...
 Test Suites: 1 passed, 1 total
 Tests:       30 passed, 30 total
