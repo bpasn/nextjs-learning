@@ -287,11 +287,11 @@ npm run test:api
 yarn test:api
 ```
 
-**อัพโหลดไฟล์ที่ถูกต้อง**: 
+**อัพโหลดไฟล์หรือ JSON Body ที่ถูกต้อง**: 
 ทดสอบว่าระบบคำนวณราคาสุดท้ายได้ถูกต้องเมื่อข้อมูลในไฟล์ JSON ถูกต้อง
 
 
-**อัพโหลดไฟล์ที่ไม่ถูกต้อง**: 
+**อัพโหลดไฟล์หรือ JSON Body ที่ไม่ถูกต้อง**: 
 ทดสอบการตอบกลับข้อผิดพลาดเมื่อไฟล์หรือโครงสร้างข้อมูลไม่ถูกต้อง
 
 
@@ -310,6 +310,17 @@ Test Suites: 1 passed, 1 total
 Tests:       5 passed, 5 total
 Snapshots:   0 total
 Time:        1.228 s, estimated 2 s
+```
+```plaintext
+PASS  tests/api/calculate-discount.test.ts
+POST /calculate-discount
+   Test Error Cases Invalid Type , Carts or Discounts are Missing , Carts or Discounts are Not Arrays and Internal Server Error
+   ✓ should return 400 if carts are missing (28 ms)
+   ✓ should return 400 if discounts are missing (2 ms)
+   ✓ should return 400 if carts or discounts are not arrays (1 ms)
+   ✓ should return 500 for internal server errors (1 ms)
+   Success
+   ✓ should return the final price if everything is valid (2 ms)
 ```
 ---
 
