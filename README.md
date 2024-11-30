@@ -132,7 +132,7 @@ yarn run start:api
 ### Method: `POST`
 
 ### URL: http://localhost:3000/upload-json
-### Request Body (form-data):
+### Request Body (form-data)
 
 คุณต้องส่งไฟล์ในรูปแบบ `multipart/form-data` โดยใช้ key เป็น `file`.
 
@@ -214,17 +214,8 @@ npm run test
 # or
 yarn test
 ```
-
-กรณีทดสอบ
-
-**อัพโหลดไฟล์ที่ถูกต้อง**: 
-ทดสอบว่าระบบคำนวณราคาสุดท้ายได้ถูกต้องเมื่อข้อมูลในไฟล์ JSON ถูกต้อง
-
-
-**อัพโหลดไฟล์ที่ไม่ถูกต้อง**: 
-ทดสอบการตอบกลับข้อผิดพลาดเมื่อไฟล์หรือโครงสร้างข้อมูลไม่ถูกต้อง
-
 ---
+
 ### ฟังก์ชันหลัก
 
 1. **`calculateFinalPrice(carts: CartItem[], discounts: Discount[]): number`**  
@@ -255,14 +246,49 @@ yarn test
 
 
 ## การทดสอบ (Testing)
+โค้ดในโปรเจคนี้ได้รับการทดสอบด้วย **Jest** เพื่อให้มั่นใจว่าฟังก์ชันการทำงานของโมดูลนี้ถูกต้องและครอบคลุมทุกกรณีที่สำคัญ
 
+
+**กรณีทดสอบ API**
 ```bash
-npm run test
+npm run test:api
 # or
-yarn test
+yarn test:api
 ```
 
-โค้ดในโปรเจคนี้ได้รับการทดสอบด้วย **Jest** เพื่อให้มั่นใจว่าฟังก์ชันการทำงานของโมดูลนี้ถูกต้องและครอบคลุมทุกกรณีที่สำคัญ
+**อัพโหลดไฟล์ที่ถูกต้อง**: 
+ทดสอบว่าระบบคำนวณราคาสุดท้ายได้ถูกต้องเมื่อข้อมูลในไฟล์ JSON ถูกต้อง
+
+
+**อัพโหลดไฟล์ที่ไม่ถูกต้อง**: 
+ทดสอบการตอบกลับข้อผิดพลาดเมื่อไฟล์หรือโครงสร้างข้อมูลไม่ถูกต้อง
+
+
+```plaintext
+PASS  src/__tests__/api.test.ts
+POST /upload-json
+   Test Error Cases Invalid Type , Content Empty , JSON Structure Is Invalid and Internal Server Error
+   ✓ should return 400 if invalid file type is uploaded (29 ms)
+   ✓ should return 400 if the JSON content is empty (3 ms)
+   ✓ should return 400 if JSON structure is invalid (3 ms)
+   ✓ should return 500 if internal server error occurs (5 ms)
+   Test Success Cases
+   ✓ should return 200 and the final price after applying discounts (3 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       5 passed, 5 total
+Snapshots:   0 total
+Time:        1.228 s, estimated 2 s
+```
+---
+
+**กรณีทดสอบ Module**
+
+```bash
+npm run test:module
+# or
+yarn test:module
+```
 
 ### กรณีที่ครอบคลุมในการทดสอบ
 1. **กรณีสำเร็จ (Success Cases)**
